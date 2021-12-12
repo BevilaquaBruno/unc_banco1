@@ -1,0 +1,3446 @@
+<MER>
+<Informacoes>
+<Posicao Left="685" Top="0"/>
+<TotalItens Valor="660"/>
+<Tipo Valor="CONCEITUAL"/>
+<Versao Valor="1.0.0"/>
+</Informacoes>
+<Entidades>
+<Entidade nome="Venda" id="1">
+<Left Valor="720"/>
+<Top Valor="456"/>
+<Width Valor="102"/>
+<Height Valor="66"/>
+<Fonte default="-1"/>
+<Atributos>
+<Atributo nome="Id_venda" id="188">
+<Left Valor="858"/>
+<Top Valor="457"/>
+<Width Valor="81"/>
+<Height Valor="16"/>
+<Fonte default="-1"/>
+<Atributos/>
+<AtributosOcultos/>
+<Dicionario/>
+<Nula Valor="0"/>
+<Observacao/>
+<Anexos/>
+<MaxCard Valor="1"/>
+<MinCard Valor="1"/>
+<Composto Valor="0"/>
+<Identificador Valor="-1"/>
+<Tipo Valor="Texto(1)"/>
+<Multivalorado Valor="0"/>
+<Orientacao Valor="3"/>
+<TamAuto Valor="-1"/>
+<Desvio Valor="10"/>
+<BarraID Valor="190"/>
+<Ligacoes>
+<Ligacao Destino_ID="1">
+<MostraCardinalidade Valor="0" Card_id="189"/>
+<Cardinalidades Cardinalidade="4"/>
+<Orientacao Valor="0"/>
+<Fraca Valor="0"/>
+</Ligacao>
+</Ligacoes>
+</Atributo>
+<Atributo nome="Data" id="191">
+<Left Valor="858"/>
+<Top Valor="496"/>
+<Width Valor="54"/>
+<Height Valor="16"/>
+<Fonte default="-1"/>
+<Atributos/>
+<AtributosOcultos/>
+<Dicionario/>
+<Nula Valor="0"/>
+<Observacao/>
+<Anexos/>
+<MaxCard Valor="1"/>
+<MinCard Valor="1"/>
+<Composto Valor="0"/>
+<Identificador Valor="0"/>
+<Tipo Valor="Texto(1)"/>
+<Multivalorado Valor="0"/>
+<Orientacao Valor="3"/>
+<TamAuto Valor="-1"/>
+<Desvio Valor="10"/>
+<BarraID Valor="193"/>
+<Ligacoes>
+<Ligacao Destino_ID="1">
+<MostraCardinalidade Valor="0" Card_id="192"/>
+<Cardinalidades Cardinalidade="4"/>
+<Orientacao Valor="0"/>
+<Fraca Valor="0"/>
+</Ligacao>
+</Ligacoes>
+</Atributo>
+<Atributo nome="NF" id="194">
+<Left Valor="858"/>
+<Top Valor="470"/>
+<Width Valor="40"/>
+<Height Valor="16"/>
+<Fonte default="-1"/>
+<Atributos/>
+<AtributosOcultos/>
+<Dicionario/>
+<Nula Valor="0"/>
+<Observacao/>
+<Anexos/>
+<MaxCard Valor="1"/>
+<MinCard Valor="1"/>
+<Composto Valor="0"/>
+<Identificador Valor="0"/>
+<Tipo Valor="Texto(1)"/>
+<Multivalorado Valor="0"/>
+<Orientacao Valor="3"/>
+<TamAuto Valor="-1"/>
+<Desvio Valor="10"/>
+<BarraID Valor="196"/>
+<Ligacoes>
+<Ligacao Destino_ID="1">
+<MostraCardinalidade Valor="0" Card_id="195"/>
+<Cardinalidades Cardinalidade="4"/>
+<Orientacao Valor="0"/>
+<Fraca Valor="0"/>
+</Ligacao>
+</Ligacoes>
+</Atributo>
+<Atributo nome="Serie" id="197">
+<Left Valor="858"/>
+<Top Valor="483"/>
+<Width Valor="56"/>
+<Height Valor="16"/>
+<Fonte default="-1"/>
+<Atributos/>
+<AtributosOcultos/>
+<Dicionario/>
+<Nula Valor="0"/>
+<Observacao/>
+<Anexos/>
+<MaxCard Valor="1"/>
+<MinCard Valor="1"/>
+<Composto Valor="0"/>
+<Identificador Valor="0"/>
+<Tipo Valor="Texto(1)"/>
+<Multivalorado Valor="0"/>
+<Orientacao Valor="3"/>
+<TamAuto Valor="-1"/>
+<Desvio Valor="10"/>
+<BarraID Valor="199"/>
+<Ligacoes>
+<Ligacao Destino_ID="1">
+<MostraCardinalidade Valor="0" Card_id="198"/>
+<Cardinalidades Cardinalidade="4"/>
+<Orientacao Valor="0"/>
+<Fraca Valor="0"/>
+</Ligacao>
+</Ligacoes>
+</Atributo>
+</Atributos>
+<AtributosOcultos/>
+<Dicionario/>
+<Nula Valor="0"/>
+<Observacao/>
+<Anexos/>
+<AutoRelacoes AutoRelacionado="0"/>
+<Especializacoes ehEsp="0"/>
+</Entidade>
+<Entidade nome="Estoque" id="2">
+<Left Valor="715"/>
+<Top Valor="256"/>
+<Width Valor="102"/>
+<Height Valor="66"/>
+<Fonte default="-1"/>
+<Atributos>
+<Atributo nome="Id_estoque" id="95">
+<Left Valor="757"/>
+<Top Valor="221"/>
+<Width Valor="92"/>
+<Height Valor="16"/>
+<Fonte default="-1"/>
+<Atributos/>
+<AtributosOcultos/>
+<Dicionario/>
+<Nula Valor="0"/>
+<Observacao/>
+<Anexos/>
+<MaxCard Valor="1"/>
+<MinCard Valor="1"/>
+<Composto Valor="0"/>
+<Identificador Valor="-1"/>
+<Tipo Valor="Texto(1)"/>
+<Multivalorado Valor="0"/>
+<Orientacao Valor="3"/>
+<TamAuto Valor="-1"/>
+<Desvio Valor="10"/>
+<BarraID Valor="97"/>
+<Ligacoes>
+<Ligacao Destino_ID="2">
+<MostraCardinalidade Valor="0" Card_id="96"/>
+<Cardinalidades Cardinalidade="4"/>
+<Orientacao Valor="1"/>
+<Fraca Valor="0"/>
+</Ligacao>
+</Ligacoes>
+</Atributo>
+<Atributo nome="Nome" id="98">
+<Left Valor="678"/>
+<Top Valor="234"/>
+<Width Valor="59"/>
+<Height Valor="16"/>
+<Fonte default="-1"/>
+<Atributos/>
+<AtributosOcultos/>
+<Dicionario/>
+<Nula Valor="0"/>
+<Observacao/>
+<Anexos/>
+<MaxCard Valor="1"/>
+<MinCard Valor="1"/>
+<Composto Valor="0"/>
+<Identificador Valor="0"/>
+<Tipo Valor="Texto(1)"/>
+<Multivalorado Valor="0"/>
+<Orientacao Valor="2"/>
+<TamAuto Valor="-1"/>
+<Desvio Valor="10"/>
+<BarraID Valor="100"/>
+<Ligacoes>
+<Ligacao Destino_ID="2">
+<MostraCardinalidade Valor="0" Card_id="99"/>
+<Cardinalidades Cardinalidade="4"/>
+<Orientacao Valor="0"/>
+<Fraca Valor="0"/>
+</Ligacao>
+</Ligacoes>
+</Atributo>
+<Atributo nome="Unidade" id="101">
+<Left Valor="620"/>
+<Top Valor="284"/>
+<Width Valor="73"/>
+<Height Valor="16"/>
+<Fonte default="-1"/>
+<Atributos/>
+<AtributosOcultos/>
+<Dicionario/>
+<Nula Valor="0"/>
+<Observacao/>
+<Anexos/>
+<MaxCard Valor="1"/>
+<MinCard Valor="1"/>
+<Composto Valor="0"/>
+<Identificador Valor="0"/>
+<Tipo Valor="Texto(1)"/>
+<Multivalorado Valor="0"/>
+<Orientacao Valor="2"/>
+<TamAuto Valor="-1"/>
+<Desvio Valor="10"/>
+<BarraID Valor="103"/>
+<Ligacoes>
+<Ligacao Destino_ID="2">
+<MostraCardinalidade Valor="0" Card_id="102"/>
+<Cardinalidades Cardinalidade="4"/>
+<Orientacao Valor="0"/>
+<Fraca Valor="0"/>
+</Ligacao>
+</Ligacoes>
+</Atributo>
+<Atributo nome="Prc_custo" id="104">
+<Left Valor="596"/>
+<Top Valor="300"/>
+<Width Valor="83"/>
+<Height Valor="16"/>
+<Fonte default="-1"/>
+<Atributos/>
+<AtributosOcultos/>
+<Dicionario/>
+<Nula Valor="0"/>
+<Observacao/>
+<Anexos/>
+<MaxCard Valor="1"/>
+<MinCard Valor="1"/>
+<Composto Valor="0"/>
+<Identificador Valor="0"/>
+<Tipo Valor="Texto(1)"/>
+<Multivalorado Valor="0"/>
+<Orientacao Valor="2"/>
+<TamAuto Valor="-1"/>
+<Desvio Valor="10"/>
+<BarraID Valor="106"/>
+<Ligacoes>
+<Ligacao Destino_ID="2">
+<MostraCardinalidade Valor="0" Card_id="105"/>
+<Cardinalidades Cardinalidade="4"/>
+<Orientacao Valor="0"/>
+<Fraca Valor="0"/>
+</Ligacao>
+</Ligacoes>
+</Atributo>
+<Atributo nome="Prc_venda" id="107">
+<Left Valor="822"/>
+<Top Valor="239"/>
+<Width Valor="87"/>
+<Height Valor="16"/>
+<Fonte default="-1"/>
+<Atributos/>
+<AtributosOcultos/>
+<Dicionario/>
+<Nula Valor="0"/>
+<Observacao/>
+<Anexos/>
+<MaxCard Valor="1"/>
+<MinCard Valor="1"/>
+<Composto Valor="0"/>
+<Identificador Valor="0"/>
+<Tipo Valor="Texto(1)"/>
+<Multivalorado Valor="0"/>
+<Orientacao Valor="3"/>
+<TamAuto Valor="-1"/>
+<Desvio Valor="10"/>
+<BarraID Valor="109"/>
+<Ligacoes>
+<Ligacao Destino_ID="2">
+<MostraCardinalidade Valor="0" Card_id="108"/>
+<Cardinalidades Cardinalidade="4"/>
+<Orientacao Valor="0"/>
+<Fraca Valor="0"/>
+</Ligacao>
+</Ligacoes>
+</Atributo>
+<Atributo nome="Estoq_atual" id="110">
+<Left Valor="609"/>
+<Top Valor="321"/>
+<Width Valor="94"/>
+<Height Valor="16"/>
+<Fonte default="-1"/>
+<Atributos/>
+<AtributosOcultos/>
+<Dicionario/>
+<Nula Valor="0"/>
+<Observacao/>
+<Anexos/>
+<MaxCard Valor="1"/>
+<MinCard Valor="1"/>
+<Composto Valor="0"/>
+<Identificador Valor="0"/>
+<Tipo Valor="Texto(1)"/>
+<Multivalorado Valor="0"/>
+<Orientacao Valor="2"/>
+<TamAuto Valor="-1"/>
+<Desvio Valor="10"/>
+<BarraID Valor="112"/>
+<Ligacoes>
+<Ligacao Destino_ID="2">
+<MostraCardinalidade Valor="0" Card_id="111"/>
+<Cardinalidades Cardinalidade="4"/>
+<Orientacao Valor="0"/>
+<Fraca Valor="0"/>
+</Ligacao>
+</Ligacoes>
+</Atributo>
+<Atributo nome="Est_minimo" id="113">
+<Left Valor="841"/>
+<Top Valor="259"/>
+<Width Valor="93"/>
+<Height Valor="16"/>
+<Fonte default="-1"/>
+<Atributos/>
+<AtributosOcultos/>
+<Dicionario/>
+<Nula Valor="0"/>
+<Observacao/>
+<Anexos/>
+<MaxCard Valor="1"/>
+<MinCard Valor="1"/>
+<Composto Valor="0"/>
+<Identificador Valor="0"/>
+<Tipo Valor="Texto(1)"/>
+<Multivalorado Valor="0"/>
+<Orientacao Valor="3"/>
+<TamAuto Valor="-1"/>
+<Desvio Valor="10"/>
+<BarraID Valor="115"/>
+<Ligacoes>
+<Ligacao Destino_ID="2">
+<MostraCardinalidade Valor="0" Card_id="114"/>
+<Cardinalidades Cardinalidade="4"/>
+<Orientacao Valor="0"/>
+<Fraca Valor="0"/>
+</Ligacao>
+</Ligacoes>
+</Atributo>
+</Atributos>
+<AtributosOcultos/>
+<Dicionario/>
+<Nula Valor="0"/>
+<Observacao/>
+<Anexos/>
+<AutoRelacoes AutoRelacionado="0"/>
+<Especializacoes ehEsp="0"/>
+</Entidade>
+<Entidade nome="Financeiro" id="6">
+<Left Valor="1417"/>
+<Top Valor="85"/>
+<Width Valor="102"/>
+<Height Valor="66"/>
+<Fonte default="-1"/>
+<Atributos>
+<Atributo nome="id_lanf" id="284">
+<Left Valor="1418"/>
+<Top Valor="52"/>
+<Width Valor="65"/>
+<Height Valor="16"/>
+<Fonte default="-1"/>
+<Atributos/>
+<AtributosOcultos/>
+<Dicionario/>
+<Nula Valor="0"/>
+<Observacao/>
+<Anexos/>
+<MaxCard Valor="1"/>
+<MinCard Valor="1"/>
+<Composto Valor="0"/>
+<Identificador Valor="-1"/>
+<Tipo Valor="Texto(1)"/>
+<Multivalorado Valor="0"/>
+<Orientacao Valor="2"/>
+<TamAuto Valor="-1"/>
+<Desvio Valor="10"/>
+<BarraID Valor="286"/>
+<Ligacoes>
+<Ligacao Destino_ID="6">
+<MostraCardinalidade Valor="0" Card_id="285"/>
+<Cardinalidades Cardinalidade="4"/>
+<Orientacao Valor="0"/>
+<Fraca Valor="0"/>
+</Ligacao>
+</Ligacoes>
+</Atributo>
+<Atributo nome="Data_movto" id="287">
+<Left Valor="1508"/>
+<Top Valor="57"/>
+<Width Valor="98"/>
+<Height Valor="16"/>
+<Fonte default="-1"/>
+<Atributos/>
+<AtributosOcultos/>
+<Dicionario/>
+<Nula Valor="0"/>
+<Observacao/>
+<Anexos/>
+<MaxCard Valor="1"/>
+<MinCard Valor="1"/>
+<Composto Valor="0"/>
+<Identificador Valor="0"/>
+<Tipo Valor="Texto(1)"/>
+<Multivalorado Valor="0"/>
+<Orientacao Valor="3"/>
+<TamAuto Valor="-1"/>
+<Desvio Valor="10"/>
+<BarraID Valor="289"/>
+<Ligacoes>
+<Ligacao Destino_ID="6">
+<MostraCardinalidade Valor="0" Card_id="288"/>
+<Cardinalidades Cardinalidade="4"/>
+<Orientacao Valor="0"/>
+<Fraca Valor="0"/>
+</Ligacao>
+</Ligacoes>
+</Atributo>
+<Atributo nome="histórico" id="294">
+<Left Valor="1534"/>
+<Top Valor="81"/>
+<Width Valor="76"/>
+<Height Valor="16"/>
+<Fonte default="-1"/>
+<Atributos/>
+<AtributosOcultos/>
+<Dicionario/>
+<Nula Valor="0"/>
+<Observacao/>
+<Anexos/>
+<MaxCard Valor="1"/>
+<MinCard Valor="1"/>
+<Composto Valor="0"/>
+<Identificador Valor="0"/>
+<Tipo Valor="Texto(1)"/>
+<Multivalorado Valor="0"/>
+<Orientacao Valor="3"/>
+<TamAuto Valor="-1"/>
+<Desvio Valor="10"/>
+<BarraID Valor="296"/>
+<Ligacoes>
+<Ligacao Destino_ID="6">
+<MostraCardinalidade Valor="0" Card_id="295"/>
+<Cardinalidades Cardinalidade="4"/>
+<Orientacao Valor="0"/>
+<Fraca Valor="0"/>
+</Ligacao>
+</Ligacoes>
+</Atributo>
+<Atributo nome="valor" id="297">
+<Left Valor="1361"/>
+<Top Valor="60"/>
+<Width Valor="56"/>
+<Height Valor="16"/>
+<Fonte default="-1"/>
+<Atributos/>
+<AtributosOcultos/>
+<Dicionario/>
+<Nula Valor="0"/>
+<Observacao/>
+<Anexos/>
+<MaxCard Valor="1"/>
+<MinCard Valor="1"/>
+<Composto Valor="0"/>
+<Identificador Valor="0"/>
+<Tipo Valor="Texto(1)"/>
+<Multivalorado Valor="0"/>
+<Orientacao Valor="2"/>
+<TamAuto Valor="-1"/>
+<Desvio Valor="10"/>
+<BarraID Valor="299"/>
+<Ligacoes>
+<Ligacao Destino_ID="6">
+<MostraCardinalidade Valor="0" Card_id="298"/>
+<Cardinalidades Cardinalidade="4"/>
+<Orientacao Valor="0"/>
+<Fraca Valor="0"/>
+</Ligacao>
+</Ligacoes>
+</Atributo>
+<Atributo nome="data_vcto" id="300">
+<Left Valor="1537"/>
+<Top Valor="108"/>
+<Width Valor="85"/>
+<Height Valor="16"/>
+<Fonte default="-1"/>
+<Atributos/>
+<AtributosOcultos/>
+<Dicionario/>
+<Nula Valor="0"/>
+<Observacao/>
+<Anexos/>
+<MaxCard Valor="1"/>
+<MinCard Valor="1"/>
+<Composto Valor="0"/>
+<Identificador Valor="0"/>
+<Tipo Valor="Texto(1)"/>
+<Multivalorado Valor="0"/>
+<Orientacao Valor="3"/>
+<TamAuto Valor="-1"/>
+<Desvio Valor="10"/>
+<BarraID Valor="302"/>
+<Ligacoes>
+<Ligacao Destino_ID="6">
+<MostraCardinalidade Valor="0" Card_id="301"/>
+<Cardinalidades Cardinalidade="4"/>
+<Orientacao Valor="0"/>
+<Fraca Valor="0"/>
+</Ligacao>
+</Ligacoes>
+</Atributo>
+<Atributo nome="data_baixa" id="303">
+<Left Valor="1354"/>
+<Top Valor="161"/>
+<Width Valor="91"/>
+<Height Valor="16"/>
+<Fonte default="-1"/>
+<Atributos/>
+<AtributosOcultos/>
+<Dicionario/>
+<Nula Valor="0"/>
+<Observacao/>
+<Anexos/>
+<MaxCard Valor="1"/>
+<MinCard Valor="1"/>
+<Composto Valor="0"/>
+<Identificador Valor="0"/>
+<Tipo Valor="Texto(1)"/>
+<Multivalorado Valor="0"/>
+<Orientacao Valor="2"/>
+<TamAuto Valor="-1"/>
+<Desvio Valor="10"/>
+<BarraID Valor="305"/>
+<Ligacoes>
+<Ligacao Destino_ID="6">
+<MostraCardinalidade Valor="0" Card_id="304"/>
+<Cardinalidades Cardinalidade="4"/>
+<Orientacao Valor="0"/>
+<Fraca Valor="0"/>
+</Ligacao>
+</Ligacoes>
+</Atributo>
+<Atributo nome="tipo" id="306">
+<Left Valor="1545"/>
+<Top Valor="124"/>
+<Width Valor="49"/>
+<Height Valor="16"/>
+<Fonte default="-1"/>
+<Atributos/>
+<AtributosOcultos/>
+<Dicionario/>
+<Nula Valor="0"/>
+<Observacao/>
+<Anexos/>
+<MaxCard Valor="1"/>
+<MinCard Valor="1"/>
+<Composto Valor="0"/>
+<Identificador Valor="0"/>
+<Tipo Valor="Texto(1)"/>
+<Multivalorado Valor="0"/>
+<Orientacao Valor="3"/>
+<TamAuto Valor="-1"/>
+<Desvio Valor="10"/>
+<BarraID Valor="308"/>
+<Ligacoes>
+<Ligacao Destino_ID="6">
+<MostraCardinalidade Valor="0" Card_id="307"/>
+<Cardinalidades Cardinalidade="4"/>
+<Orientacao Valor="0"/>
+<Fraca Valor="0"/>
+</Ligacao>
+</Ligacoes>
+</Atributo>
+</Atributos>
+<AtributosOcultos/>
+<Dicionario/>
+<Nula Valor="0"/>
+<Observacao/>
+<Anexos/>
+<AutoRelacoes AutoRelacionado="0"/>
+<Especializacoes ehEsp="0"/>
+</Entidade>
+<Entidade nome="Cliente" id="10">
+<Left Valor="241"/>
+<Top Valor="599"/>
+<Width Valor="102"/>
+<Height Valor="66"/>
+<Fonte default="-1"/>
+<Atributos>
+<Atributo nome="Id_cliente" id="158">
+<Left Valor="378"/>
+<Top Valor="607"/>
+<Width Valor="84"/>
+<Height Valor="16"/>
+<Fonte default="-1"/>
+<Atributos/>
+<AtributosOcultos/>
+<Dicionario/>
+<Nula Valor="0"/>
+<Observacao/>
+<Anexos/>
+<MaxCard Valor="1"/>
+<MinCard Valor="1"/>
+<Composto Valor="0"/>
+<Identificador Valor="-1"/>
+<Tipo Valor="Texto(1)"/>
+<Multivalorado Valor="0"/>
+<Orientacao Valor="3"/>
+<TamAuto Valor="-1"/>
+<Desvio Valor="10"/>
+<BarraID Valor="160"/>
+<Ligacoes>
+<Ligacao Destino_ID="10">
+<MostraCardinalidade Valor="0" Card_id="159"/>
+<Cardinalidades Cardinalidade="4"/>
+<Orientacao Valor="0"/>
+<Fraca Valor="0"/>
+</Ligacao>
+</Ligacoes>
+</Atributo>
+<Atributo nome="Nome" id="161">
+<Left Valor="308"/>
+<Top Valor="696"/>
+<Width Valor="59"/>
+<Height Valor="16"/>
+<Fonte default="-1"/>
+<Atributos/>
+<AtributosOcultos/>
+<Dicionario/>
+<Nula Valor="0"/>
+<Observacao/>
+<Anexos/>
+<MaxCard Valor="1"/>
+<MinCard Valor="1"/>
+<Composto Valor="0"/>
+<Identificador Valor="0"/>
+<Tipo Valor="Texto(1)"/>
+<Multivalorado Valor="0"/>
+<Orientacao Valor="3"/>
+<TamAuto Valor="-1"/>
+<Desvio Valor="10"/>
+<BarraID Valor="163"/>
+<Ligacoes>
+<Ligacao Destino_ID="10">
+<MostraCardinalidade Valor="0" Card_id="162"/>
+<Cardinalidades Cardinalidade="4"/>
+<Orientacao Valor="0"/>
+<Fraca Valor="0"/>
+</Ligacao>
+</Ligacoes>
+</Atributo>
+<Atributo nome="Endereço" id="164">
+<Left Valor="331"/>
+<Top Valor="683"/>
+<Width Valor="79"/>
+<Height Valor="16"/>
+<Fonte default="-1"/>
+<Atributos/>
+<AtributosOcultos/>
+<Dicionario/>
+<Nula Valor="0"/>
+<Observacao/>
+<Anexos/>
+<MaxCard Valor="1"/>
+<MinCard Valor="1"/>
+<Composto Valor="0"/>
+<Identificador Valor="0"/>
+<Tipo Valor="Texto(1)"/>
+<Multivalorado Valor="0"/>
+<Orientacao Valor="3"/>
+<TamAuto Valor="-1"/>
+<Desvio Valor="10"/>
+<BarraID Valor="166"/>
+<Ligacoes>
+<Ligacao Destino_ID="10">
+<MostraCardinalidade Valor="0" Card_id="165"/>
+<Cardinalidades Cardinalidade="4"/>
+<Orientacao Valor="0"/>
+<Fraca Valor="0"/>
+</Ligacao>
+</Ligacoes>
+</Atributo>
+<Atributo nome="CEP" id="167">
+<Left Valor="286"/>
+<Top Valor="727"/>
+<Width Valor="47"/>
+<Height Valor="16"/>
+<Fonte default="-1"/>
+<Atributos/>
+<AtributosOcultos/>
+<Dicionario/>
+<Nula Valor="0"/>
+<Observacao/>
+<Anexos/>
+<MaxCard Valor="1"/>
+<MinCard Valor="1"/>
+<Composto Valor="0"/>
+<Identificador Valor="0"/>
+<Tipo Valor="Texto(1)"/>
+<Multivalorado Valor="0"/>
+<Orientacao Valor="3"/>
+<TamAuto Valor="-1"/>
+<Desvio Valor="10"/>
+<BarraID Valor="169"/>
+<Ligacoes>
+<Ligacao Destino_ID="10">
+<MostraCardinalidade Valor="0" Card_id="168"/>
+<Cardinalidades Cardinalidade="4"/>
+<Orientacao Valor="0"/>
+<Fraca Valor="0"/>
+</Ligacao>
+</Ligacoes>
+</Atributo>
+<Atributo nome="Cidade_UF" id="170">
+<Left Valor="300"/>
+<Top Valor="711"/>
+<Width Valor="86"/>
+<Height Valor="16"/>
+<Fonte default="-1"/>
+<Atributos/>
+<AtributosOcultos/>
+<Dicionario/>
+<Nula Valor="0"/>
+<Observacao/>
+<Anexos/>
+<MaxCard Valor="1"/>
+<MinCard Valor="1"/>
+<Composto Valor="0"/>
+<Identificador Valor="0"/>
+<Tipo Valor="Texto(1)"/>
+<Multivalorado Valor="0"/>
+<Orientacao Valor="3"/>
+<TamAuto Valor="-1"/>
+<Desvio Valor="10"/>
+<BarraID Valor="172"/>
+<Ligacoes>
+<Ligacao Destino_ID="10">
+<MostraCardinalidade Valor="0" Card_id="171"/>
+<Cardinalidades Cardinalidade="4"/>
+<Orientacao Valor="0"/>
+<Fraca Valor="0"/>
+</Ligacao>
+</Ligacoes>
+</Atributo>
+<Atributo nome="Fone" id="173">
+<Left Valor="339"/>
+<Top Valor="563"/>
+<Width Valor="54"/>
+<Height Valor="16"/>
+<Fonte default="-1"/>
+<Atributos/>
+<AtributosOcultos/>
+<Dicionario/>
+<Nula Valor="0"/>
+<Observacao/>
+<Anexos/>
+<MaxCard Valor="1"/>
+<MinCard Valor="1"/>
+<Composto Valor="0"/>
+<Identificador Valor="0"/>
+<Tipo Valor="Texto(1)"/>
+<Multivalorado Valor="0"/>
+<Orientacao Valor="3"/>
+<TamAuto Valor="-1"/>
+<Desvio Valor="10"/>
+<BarraID Valor="175"/>
+<Ligacoes>
+<Ligacao Destino_ID="10">
+<MostraCardinalidade Valor="0" Card_id="174"/>
+<Cardinalidades Cardinalidade="4"/>
+<Orientacao Valor="0"/>
+<Fraca Valor="0"/>
+</Ligacao>
+</Ligacoes>
+</Atributo>
+<Atributo nome="E_mail" id="176">
+<Left Valor="142"/>
+<Top Valor="624"/>
+<Width Valor="64"/>
+<Height Valor="16"/>
+<Fonte default="-1"/>
+<Atributos/>
+<AtributosOcultos/>
+<Dicionario/>
+<Nula Valor="0"/>
+<Observacao/>
+<Anexos/>
+<MaxCard Valor="1"/>
+<MinCard Valor="1"/>
+<Composto Valor="0"/>
+<Identificador Valor="0"/>
+<Tipo Valor="Texto(1)"/>
+<Multivalorado Valor="0"/>
+<Orientacao Valor="2"/>
+<TamAuto Valor="-1"/>
+<Desvio Valor="10"/>
+<BarraID Valor="178"/>
+<Ligacoes>
+<Ligacao Destino_ID="10">
+<MostraCardinalidade Valor="0" Card_id="177"/>
+<Cardinalidades Cardinalidade="4"/>
+<Orientacao Valor="0"/>
+<Fraca Valor="0"/>
+</Ligacao>
+</Ligacoes>
+</Atributo>
+<Atributo nome="CGC_CPF" id="221">
+<Left Valor="355"/>
+<Top Valor="663"/>
+<Width Valor="76"/>
+<Height Valor="16"/>
+<Fonte default="-1"/>
+<Atributos/>
+<AtributosOcultos/>
+<Dicionario/>
+<Nula Valor="0"/>
+<Observacao/>
+<Anexos/>
+<MaxCard Valor="1"/>
+<MinCard Valor="1"/>
+<Composto Valor="0"/>
+<Identificador Valor="0"/>
+<Tipo Valor="Texto(1)"/>
+<Multivalorado Valor="0"/>
+<Orientacao Valor="3"/>
+<TamAuto Valor="-1"/>
+<Desvio Valor="10"/>
+<BarraID Valor="223"/>
+<Ligacoes>
+<Ligacao Destino_ID="10">
+<MostraCardinalidade Valor="0" Card_id="222"/>
+<Cardinalidades Cardinalidade="4"/>
+<Orientacao Valor="0"/>
+<Fraca Valor="0"/>
+</Ligacao>
+</Ligacoes>
+</Atributo>
+</Atributos>
+<AtributosOcultos/>
+<Dicionario/>
+<Nula Valor="0"/>
+<Observacao/>
+<Anexos/>
+<AutoRelacoes AutoRelacionado="0"/>
+<Especializacoes ehEsp="0"/>
+</Entidade>
+<Entidade nome="Estorno" id="26">
+<Left Valor="394"/>
+<Top Valor="454"/>
+<Width Valor="102"/>
+<Height Valor="66"/>
+<Fonte default="-1"/>
+<Atributos>
+<Atributo nome="Id_extorno" id="179">
+<Left Valor="522"/>
+<Top Valor="437"/>
+<Width Valor="91"/>
+<Height Valor="16"/>
+<Fonte default="-1"/>
+<Atributos/>
+<AtributosOcultos/>
+<Dicionario/>
+<Nula Valor="0"/>
+<Observacao/>
+<Anexos/>
+<MaxCard Valor="1"/>
+<MinCard Valor="1"/>
+<Composto Valor="0"/>
+<Identificador Valor="-1"/>
+<Tipo Valor="Texto(1)"/>
+<Multivalorado Valor="0"/>
+<Orientacao Valor="3"/>
+<TamAuto Valor="-1"/>
+<Desvio Valor="10"/>
+<BarraID Valor="181"/>
+<Ligacoes>
+<Ligacao Destino_ID="26">
+<MostraCardinalidade Valor="0" Card_id="180"/>
+<Cardinalidades Cardinalidade="4"/>
+<Orientacao Valor="0"/>
+<Fraca Valor="0"/>
+</Ligacao>
+</Ligacoes>
+</Atributo>
+<Atributo nome="Motivo" id="182">
+<Left Valor="539"/>
+<Top Valor="451"/>
+<Width Valor="66"/>
+<Height Valor="16"/>
+<Fonte default="-1"/>
+<Atributos/>
+<AtributosOcultos/>
+<Dicionario/>
+<Nula Valor="0"/>
+<Observacao/>
+<Anexos/>
+<MaxCard Valor="1"/>
+<MinCard Valor="1"/>
+<Composto Valor="0"/>
+<Identificador Valor="0"/>
+<Tipo Valor="Texto(1)"/>
+<Multivalorado Valor="0"/>
+<Orientacao Valor="3"/>
+<TamAuto Valor="-1"/>
+<Desvio Valor="10"/>
+<BarraID Valor="184"/>
+<Ligacoes>
+<Ligacao Destino_ID="26">
+<MostraCardinalidade Valor="0" Card_id="183"/>
+<Cardinalidades Cardinalidade="4"/>
+<Orientacao Valor="0"/>
+<Fraca Valor="0"/>
+</Ligacao>
+</Ligacoes>
+</Atributo>
+<Atributo nome="Data" id="185">
+<Left Valor="557"/>
+<Top Valor="463"/>
+<Width Valor="54"/>
+<Height Valor="16"/>
+<Fonte default="-1"/>
+<Atributos/>
+<AtributosOcultos/>
+<Dicionario/>
+<Nula Valor="0"/>
+<Observacao/>
+<Anexos/>
+<MaxCard Valor="1"/>
+<MinCard Valor="1"/>
+<Composto Valor="0"/>
+<Identificador Valor="0"/>
+<Tipo Valor="Texto(1)"/>
+<Multivalorado Valor="0"/>
+<Orientacao Valor="3"/>
+<TamAuto Valor="-1"/>
+<Desvio Valor="10"/>
+<BarraID Valor="187"/>
+<Ligacoes>
+<Ligacao Destino_ID="26">
+<MostraCardinalidade Valor="0" Card_id="186"/>
+<Cardinalidades Cardinalidade="4"/>
+<Orientacao Valor="0"/>
+<Fraca Valor="0"/>
+</Ligacao>
+</Ligacoes>
+</Atributo>
+</Atributos>
+<AtributosOcultos/>
+<Dicionario/>
+<Nula Valor="0"/>
+<Observacao/>
+<Anexos/>
+<AutoRelacoes AutoRelacionado="0"/>
+<Especializacoes ehEsp="0"/>
+</Entidade>
+<Entidade nome="Ordem de Serviço" id="35">
+<Left Valor="330"/>
+<Top Valor="221"/>
+<Width Valor="102"/>
+<Height Valor="66"/>
+<Fonte default="-1"/>
+<Atributos>
+<Atributo nome="Id_OS" id="116">
+<Left Valor="381"/>
+<Top Valor="162"/>
+<Width Valor="61"/>
+<Height Valor="16"/>
+<Fonte default="-1"/>
+<Atributos/>
+<AtributosOcultos/>
+<Dicionario/>
+<Nula Valor="0"/>
+<Observacao/>
+<Anexos/>
+<MaxCard Valor="1"/>
+<MinCard Valor="1"/>
+<Composto Valor="0"/>
+<Identificador Valor="-1"/>
+<Tipo Valor="Texto(1)"/>
+<Multivalorado Valor="0"/>
+<Orientacao Valor="3"/>
+<TamAuto Valor="-1"/>
+<Desvio Valor="10"/>
+<BarraID Valor="118"/>
+<Ligacoes>
+<Ligacao Destino_ID="35">
+<MostraCardinalidade Valor="0" Card_id="117"/>
+<Cardinalidades Cardinalidade="4"/>
+<Orientacao Valor="0"/>
+<Fraca Valor="0"/>
+</Ligacao>
+</Ligacoes>
+</Atributo>
+<Atributo nome="Data Inicio" id="119">
+<Left Valor="459"/>
+<Top Valor="306"/>
+<Width Valor="88"/>
+<Height Valor="16"/>
+<Fonte default="-1"/>
+<Atributos/>
+<AtributosOcultos/>
+<Dicionario/>
+<Nula Valor="0"/>
+<Observacao/>
+<Anexos/>
+<MaxCard Valor="1"/>
+<MinCard Valor="1"/>
+<Composto Valor="0"/>
+<Identificador Valor="0"/>
+<Tipo Valor="Texto(1)"/>
+<Multivalorado Valor="0"/>
+<Orientacao Valor="3"/>
+<TamAuto Valor="-1"/>
+<Desvio Valor="10"/>
+<BarraID Valor="121"/>
+<Ligacoes>
+<Ligacao Destino_ID="35">
+<MostraCardinalidade Valor="0" Card_id="120"/>
+<Cardinalidades Cardinalidade="4"/>
+<Orientacao Valor="0"/>
+<Fraca Valor="0"/>
+</Ligacao>
+</Ligacoes>
+</Atributo>
+<Atributo nome="Hora_inicio" id="122">
+<Left Valor="461"/>
+<Top Valor="282"/>
+<Width Valor="90"/>
+<Height Valor="16"/>
+<Fonte default="-1"/>
+<Atributos/>
+<AtributosOcultos/>
+<Dicionario/>
+<Nula Valor="0"/>
+<Observacao/>
+<Anexos/>
+<MaxCard Valor="1"/>
+<MinCard Valor="1"/>
+<Composto Valor="0"/>
+<Identificador Valor="0"/>
+<Tipo Valor="Texto(1)"/>
+<Multivalorado Valor="0"/>
+<Orientacao Valor="3"/>
+<TamAuto Valor="-1"/>
+<Desvio Valor="10"/>
+<BarraID Valor="124"/>
+<Ligacoes>
+<Ligacao Destino_ID="35">
+<MostraCardinalidade Valor="0" Card_id="123"/>
+<Cardinalidades Cardinalidade="4"/>
+<Orientacao Valor="0"/>
+<Fraca Valor="0"/>
+</Ligacao>
+</Ligacoes>
+</Atributo>
+<Atributo nome="Data_fim" id="125">
+<Left Valor="215"/>
+<Top Valor="263"/>
+<Width Valor="79"/>
+<Height Valor="16"/>
+<Fonte default="-1"/>
+<Atributos/>
+<AtributosOcultos/>
+<Dicionario/>
+<Nula Valor="0"/>
+<Observacao/>
+<Anexos/>
+<MaxCard Valor="1"/>
+<MinCard Valor="1"/>
+<Composto Valor="0"/>
+<Identificador Valor="0"/>
+<Tipo Valor="Texto(1)"/>
+<Multivalorado Valor="0"/>
+<Orientacao Valor="2"/>
+<TamAuto Valor="-1"/>
+<Desvio Valor="10"/>
+<BarraID Valor="127"/>
+<Ligacoes>
+<Ligacao Destino_ID="35">
+<MostraCardinalidade Valor="0" Card_id="126"/>
+<Cardinalidades Cardinalidade="4"/>
+<Orientacao Valor="0"/>
+<Fraca Valor="0"/>
+</Ligacao>
+</Ligacoes>
+</Atributo>
+<Atributo nome="Hora_fim" id="128">
+<Left Valor="231"/>
+<Top Valor="203"/>
+<Width Valor="79"/>
+<Height Valor="16"/>
+<Fonte default="-1"/>
+<Atributos/>
+<AtributosOcultos/>
+<Dicionario/>
+<Nula Valor="0"/>
+<Observacao/>
+<Anexos/>
+<MaxCard Valor="1"/>
+<MinCard Valor="1"/>
+<Composto Valor="0"/>
+<Identificador Valor="0"/>
+<Tipo Valor="Texto(1)"/>
+<Multivalorado Valor="0"/>
+<Orientacao Valor="2"/>
+<TamAuto Valor="-1"/>
+<Desvio Valor="10"/>
+<BarraID Valor="130"/>
+<Ligacoes>
+<Ligacao Destino_ID="35">
+<MostraCardinalidade Valor="0" Card_id="129"/>
+<Cardinalidades Cardinalidade="4"/>
+<Orientacao Valor="0"/>
+<Fraca Valor="0"/>
+</Ligacao>
+</Ligacoes>
+</Atributo>
+</Atributos>
+<AtributosOcultos/>
+<Dicionario/>
+<Nula Valor="0"/>
+<Observacao/>
+<Anexos/>
+<AutoRelacoes AutoRelacionado="0"/>
+<Especializacoes ehEsp="0"/>
+</Entidade>
+<Entidade nome="Veículo" id="62">
+<Left Valor="144"/>
+<Top Valor="293"/>
+<Width Valor="102"/>
+<Height Valor="66"/>
+<Fonte default="-1"/>
+<Atributos>
+<Atributo nome="Placa" id="146">
+<Left Valor="155"/>
+<Top Valor="419"/>
+<Width Valor="57"/>
+<Height Valor="16"/>
+<Fonte default="-1"/>
+<Atributos/>
+<AtributosOcultos/>
+<Dicionario/>
+<Nula Valor="0"/>
+<Observacao/>
+<Anexos/>
+<MaxCard Valor="1"/>
+<MinCard Valor="1"/>
+<Composto Valor="0"/>
+<Identificador Valor="-1"/>
+<Tipo Valor="Texto(1)"/>
+<Multivalorado Valor="0"/>
+<Orientacao Valor="2"/>
+<TamAuto Valor="-1"/>
+<Desvio Valor="10"/>
+<BarraID Valor="148"/>
+<Ligacoes>
+<Ligacao Destino_ID="62">
+<MostraCardinalidade Valor="0" Card_id="147"/>
+<Cardinalidades Cardinalidade="4"/>
+<Orientacao Valor="0"/>
+<Fraca Valor="0"/>
+</Ligacao>
+</Ligacoes>
+</Atributo>
+<Atributo nome="Descrição" id="149">
+<Left Valor="217"/>
+<Top Valor="377"/>
+<Width Valor="82"/>
+<Height Valor="16"/>
+<Fonte default="-1"/>
+<Atributos/>
+<AtributosOcultos/>
+<Dicionario/>
+<Nula Valor="0"/>
+<Observacao/>
+<Anexos/>
+<MaxCard Valor="1"/>
+<MinCard Valor="1"/>
+<Composto Valor="0"/>
+<Identificador Valor="0"/>
+<Tipo Valor="Texto(1)"/>
+<Multivalorado Valor="0"/>
+<Orientacao Valor="3"/>
+<TamAuto Valor="-1"/>
+<Desvio Valor="10"/>
+<BarraID Valor="151"/>
+<Ligacoes>
+<Ligacao Destino_ID="62">
+<MostraCardinalidade Valor="0" Card_id="150"/>
+<Cardinalidades Cardinalidade="4"/>
+<Orientacao Valor="0"/>
+<Fraca Valor="0"/>
+</Ligacao>
+</Ligacoes>
+</Atributo>
+<Atributo nome="Ano" id="152">
+<Left Valor="154"/>
+<Top Valor="391"/>
+<Width Valor="49"/>
+<Height Valor="16"/>
+<Fonte default="-1"/>
+<Atributos/>
+<AtributosOcultos/>
+<Dicionario/>
+<Nula Valor="0"/>
+<Observacao/>
+<Anexos/>
+<MaxCard Valor="1"/>
+<MinCard Valor="1"/>
+<Composto Valor="0"/>
+<Identificador Valor="0"/>
+<Tipo Valor="Texto(1)"/>
+<Multivalorado Valor="0"/>
+<Orientacao Valor="3"/>
+<TamAuto Valor="-1"/>
+<Desvio Valor="10"/>
+<BarraID Valor="154"/>
+<Ligacoes>
+<Ligacao Destino_ID="62">
+<MostraCardinalidade Valor="0" Card_id="153"/>
+<Cardinalidades Cardinalidade="4"/>
+<Orientacao Valor="0"/>
+<Fraca Valor="0"/>
+</Ligacao>
+</Ligacoes>
+</Atributo>
+<Atributo nome="Combustivel" id="155">
+<Left Valor="265"/>
+<Top Valor="318"/>
+<Width Valor="97"/>
+<Height Valor="16"/>
+<Fonte default="-1"/>
+<Atributos/>
+<AtributosOcultos/>
+<Dicionario/>
+<Nula Valor="0"/>
+<Observacao/>
+<Anexos/>
+<MaxCard Valor="1"/>
+<MinCard Valor="1"/>
+<Composto Valor="0"/>
+<Identificador Valor="0"/>
+<Tipo Valor="Texto(1)"/>
+<Multivalorado Valor="0"/>
+<Orientacao Valor="3"/>
+<TamAuto Valor="-1"/>
+<Desvio Valor="10"/>
+<BarraID Valor="157"/>
+<Ligacoes>
+<Ligacao Destino_ID="62">
+<MostraCardinalidade Valor="0" Card_id="156"/>
+<Cardinalidades Cardinalidade="4"/>
+<Orientacao Valor="0"/>
+<Fraca Valor="0"/>
+</Ligacao>
+</Ligacoes>
+</Atributo>
+</Atributos>
+<AtributosOcultos/>
+<Dicionario/>
+<Nula Valor="0"/>
+<Observacao/>
+<Anexos/>
+<AutoRelacoes AutoRelacionado="0"/>
+<Especializacoes ehEsp="0"/>
+</Entidade>
+<Entidade nome="Compra" id="75">
+<Left Valor="1154"/>
+<Top Valor="418"/>
+<Width Valor="102"/>
+<Height Valor="66"/>
+<Fonte default="-1"/>
+<Atributos>
+<Atributo nome="Id_compra" id="239">
+<Left Valor="1291"/>
+<Top Valor="458"/>
+<Width Valor="89"/>
+<Height Valor="16"/>
+<Fonte default="-1"/>
+<Atributos/>
+<AtributosOcultos/>
+<Dicionario/>
+<Nula Valor="0"/>
+<Observacao/>
+<Anexos/>
+<MaxCard Valor="1"/>
+<MinCard Valor="1"/>
+<Composto Valor="0"/>
+<Identificador Valor="-1"/>
+<Tipo Valor="Texto(1)"/>
+<Multivalorado Valor="0"/>
+<Orientacao Valor="3"/>
+<TamAuto Valor="-1"/>
+<Desvio Valor="10"/>
+<BarraID Valor="241"/>
+<Ligacoes>
+<Ligacao Destino_ID="75">
+<MostraCardinalidade Valor="0" Card_id="240"/>
+<Cardinalidades Cardinalidade="4"/>
+<Orientacao Valor="0"/>
+<Fraca Valor="0"/>
+</Ligacao>
+</Ligacoes>
+</Atributo>
+<Atributo nome="Data" id="242">
+<Left Valor="1293"/>
+<Top Valor="403"/>
+<Width Valor="54"/>
+<Height Valor="16"/>
+<Fonte default="-1"/>
+<Atributos/>
+<AtributosOcultos/>
+<Dicionario/>
+<Nula Valor="0"/>
+<Observacao/>
+<Anexos/>
+<MaxCard Valor="1"/>
+<MinCard Valor="1"/>
+<Composto Valor="0"/>
+<Identificador Valor="0"/>
+<Tipo Valor="Texto(1)"/>
+<Multivalorado Valor="0"/>
+<Orientacao Valor="3"/>
+<TamAuto Valor="-1"/>
+<Desvio Valor="10"/>
+<BarraID Valor="244"/>
+<Ligacoes>
+<Ligacao Destino_ID="75">
+<MostraCardinalidade Valor="0" Card_id="243"/>
+<Cardinalidades Cardinalidade="4"/>
+<Orientacao Valor="0"/>
+<Fraca Valor="0"/>
+</Ligacao>
+</Ligacoes>
+</Atributo>
+<Atributo nome="NF" id="245">
+<Left Valor="1291"/>
+<Top Valor="440"/>
+<Width Valor="40"/>
+<Height Valor="16"/>
+<Fonte default="-1"/>
+<Atributos/>
+<AtributosOcultos/>
+<Dicionario/>
+<Nula Valor="0"/>
+<Observacao/>
+<Anexos/>
+<MaxCard Valor="1"/>
+<MinCard Valor="1"/>
+<Composto Valor="0"/>
+<Identificador Valor="0"/>
+<Tipo Valor="Texto(1)"/>
+<Multivalorado Valor="0"/>
+<Orientacao Valor="3"/>
+<TamAuto Valor="-1"/>
+<Desvio Valor="10"/>
+<BarraID Valor="247"/>
+<Ligacoes>
+<Ligacao Destino_ID="75">
+<MostraCardinalidade Valor="0" Card_id="246"/>
+<Cardinalidades Cardinalidade="4"/>
+<Orientacao Valor="0"/>
+<Fraca Valor="0"/>
+</Ligacao>
+</Ligacoes>
+</Atributo>
+<Atributo nome="Serie" id="248">
+<Left Valor="1295"/>
+<Top Valor="425"/>
+<Width Valor="56"/>
+<Height Valor="16"/>
+<Fonte default="-1"/>
+<Atributos/>
+<AtributosOcultos/>
+<Dicionario/>
+<Nula Valor="0"/>
+<Observacao/>
+<Anexos/>
+<MaxCard Valor="1"/>
+<MinCard Valor="1"/>
+<Composto Valor="0"/>
+<Identificador Valor="0"/>
+<Tipo Valor="Texto(1)"/>
+<Multivalorado Valor="0"/>
+<Orientacao Valor="3"/>
+<TamAuto Valor="-1"/>
+<Desvio Valor="10"/>
+<BarraID Valor="250"/>
+<Ligacoes>
+<Ligacao Destino_ID="75">
+<MostraCardinalidade Valor="0" Card_id="249"/>
+<Cardinalidades Cardinalidade="4"/>
+<Orientacao Valor="0"/>
+<Fraca Valor="0"/>
+</Ligacao>
+</Ligacoes>
+</Atributo>
+</Atributos>
+<AtributosOcultos/>
+<Dicionario/>
+<Nula Valor="0"/>
+<Observacao/>
+<Anexos/>
+<AutoRelacoes AutoRelacionado="0"/>
+<Especializacoes ehEsp="0"/>
+</Entidade>
+<Entidade nome="Fornecedor" id="84">
+<Left Valor="902"/>
+<Top Valor="549"/>
+<Width Valor="102"/>
+<Height Valor="66"/>
+<Fonte default="-1"/>
+<Atributos>
+<Atributo nome="Id_Fornecedor" id="212">
+<Left Valor="953"/>
+<Top Valor="523"/>
+<Width Valor="110"/>
+<Height Valor="16"/>
+<Fonte default="-1"/>
+<Atributos/>
+<AtributosOcultos/>
+<Dicionario/>
+<Nula Valor="0"/>
+<Observacao/>
+<Anexos/>
+<MaxCard Valor="1"/>
+<MinCard Valor="1"/>
+<Composto Valor="0"/>
+<Identificador Valor="-1"/>
+<Tipo Valor="Texto(1)"/>
+<Multivalorado Valor="0"/>
+<Orientacao Valor="3"/>
+<TamAuto Valor="-1"/>
+<Desvio Valor="10"/>
+<BarraID Valor="214"/>
+<Ligacoes>
+<Ligacao Destino_ID="84">
+<MostraCardinalidade Valor="0" Card_id="213"/>
+<Cardinalidades Cardinalidade="4"/>
+<Orientacao Valor="0"/>
+<Fraca Valor="0"/>
+</Ligacao>
+</Ligacoes>
+</Atributo>
+<Atributo nome="Nome" id="215">
+<Left Valor="936"/>
+<Top Valor="657"/>
+<Width Valor="59"/>
+<Height Valor="16"/>
+<Fonte default="-1"/>
+<Atributos/>
+<AtributosOcultos/>
+<Dicionario/>
+<Nula Valor="0"/>
+<Observacao/>
+<Anexos/>
+<MaxCard Valor="1"/>
+<MinCard Valor="1"/>
+<Composto Valor="0"/>
+<Identificador Valor="0"/>
+<Tipo Valor="Texto(1)"/>
+<Multivalorado Valor="0"/>
+<Orientacao Valor="3"/>
+<TamAuto Valor="-1"/>
+<Desvio Valor="10"/>
+<BarraID Valor="217"/>
+<Ligacoes>
+<Ligacao Destino_ID="84">
+<MostraCardinalidade Valor="0" Card_id="216"/>
+<Cardinalidades Cardinalidade="4"/>
+<Orientacao Valor="0"/>
+<Fraca Valor="0"/>
+</Ligacao>
+</Ligacoes>
+</Atributo>
+<Atributo nome="Fone" id="218">
+<Left Valor="970"/>
+<Top Valor="641"/>
+<Width Valor="54"/>
+<Height Valor="16"/>
+<Fonte default="-1"/>
+<Atributos/>
+<AtributosOcultos/>
+<Dicionario/>
+<Nula Valor="0"/>
+<Observacao/>
+<Anexos/>
+<MaxCard Valor="1"/>
+<MinCard Valor="1"/>
+<Composto Valor="0"/>
+<Identificador Valor="0"/>
+<Tipo Valor="Texto(1)"/>
+<Multivalorado Valor="0"/>
+<Orientacao Valor="3"/>
+<TamAuto Valor="-1"/>
+<Desvio Valor="10"/>
+<BarraID Valor="220"/>
+<Ligacoes>
+<Ligacao Destino_ID="84">
+<MostraCardinalidade Valor="0" Card_id="219"/>
+<Cardinalidades Cardinalidade="4"/>
+<Orientacao Valor="0"/>
+<Fraca Valor="0"/>
+</Ligacao>
+</Ligacoes>
+</Atributo>
+<Atributo nome="e_mail" id="224">
+<Left Valor="1027"/>
+<Top Valor="603"/>
+<Width Valor="65"/>
+<Height Valor="16"/>
+<Fonte default="-1"/>
+<Atributos/>
+<AtributosOcultos/>
+<Dicionario/>
+<Nula Valor="0"/>
+<Observacao/>
+<Anexos/>
+<MaxCard Valor="1"/>
+<MinCard Valor="1"/>
+<Composto Valor="0"/>
+<Identificador Valor="0"/>
+<Tipo Valor="Texto(1)"/>
+<Multivalorado Valor="0"/>
+<Orientacao Valor="3"/>
+<TamAuto Valor="-1"/>
+<Desvio Valor="10"/>
+<BarraID Valor="226"/>
+<Ligacoes>
+<Ligacao Destino_ID="84">
+<MostraCardinalidade Valor="0" Card_id="225"/>
+<Cardinalidades Cardinalidade="4"/>
+<Orientacao Valor="0"/>
+<Fraca Valor="0"/>
+</Ligacao>
+</Ligacoes>
+</Atributo>
+<Atributo nome="Endereço" id="227">
+<Left Valor="1043"/>
+<Top Valor="575"/>
+<Width Valor="79"/>
+<Height Valor="16"/>
+<Fonte default="-1"/>
+<Atributos/>
+<AtributosOcultos/>
+<Dicionario/>
+<Nula Valor="0"/>
+<Observacao/>
+<Anexos/>
+<MaxCard Valor="1"/>
+<MinCard Valor="1"/>
+<Composto Valor="0"/>
+<Identificador Valor="0"/>
+<Tipo Valor="Texto(1)"/>
+<Multivalorado Valor="0"/>
+<Orientacao Valor="3"/>
+<TamAuto Valor="-1"/>
+<Desvio Valor="10"/>
+<BarraID Valor="229"/>
+<Ligacoes>
+<Ligacao Destino_ID="84">
+<MostraCardinalidade Valor="0" Card_id="228"/>
+<Cardinalidades Cardinalidade="4"/>
+<Orientacao Valor="0"/>
+<Fraca Valor="0"/>
+</Ligacao>
+</Ligacoes>
+</Atributo>
+<Atributo nome="CGC_CPF" id="230">
+<Left Valor="1019"/>
+<Top Valor="627"/>
+<Width Valor="76"/>
+<Height Valor="16"/>
+<Fonte default="-1"/>
+<Atributos/>
+<AtributosOcultos/>
+<Dicionario/>
+<Nula Valor="0"/>
+<Observacao/>
+<Anexos/>
+<MaxCard Valor="1"/>
+<MinCard Valor="1"/>
+<Composto Valor="0"/>
+<Identificador Valor="0"/>
+<Tipo Valor="Texto(1)"/>
+<Multivalorado Valor="0"/>
+<Orientacao Valor="3"/>
+<TamAuto Valor="-1"/>
+<Desvio Valor="10"/>
+<BarraID Valor="232"/>
+<Ligacoes>
+<Ligacao Destino_ID="84">
+<MostraCardinalidade Valor="0" Card_id="231"/>
+<Cardinalidades Cardinalidade="4"/>
+<Orientacao Valor="0"/>
+<Fraca Valor="0"/>
+</Ligacao>
+</Ligacoes>
+</Atributo>
+<Atributo nome="cep" id="233">
+<Left Valor="1035"/>
+<Top Valor="589"/>
+<Width Valor="47"/>
+<Height Valor="16"/>
+<Fonte default="-1"/>
+<Atributos/>
+<AtributosOcultos/>
+<Dicionario/>
+<Nula Valor="0"/>
+<Observacao/>
+<Anexos/>
+<MaxCard Valor="1"/>
+<MinCard Valor="1"/>
+<Composto Valor="0"/>
+<Identificador Valor="0"/>
+<Tipo Valor="Texto(1)"/>
+<Multivalorado Valor="0"/>
+<Orientacao Valor="3"/>
+<TamAuto Valor="-1"/>
+<Desvio Valor="10"/>
+<BarraID Valor="235"/>
+<Ligacoes>
+<Ligacao Destino_ID="84">
+<MostraCardinalidade Valor="0" Card_id="234"/>
+<Cardinalidades Cardinalidade="4"/>
+<Orientacao Valor="0"/>
+<Fraca Valor="0"/>
+</Ligacao>
+</Ligacoes>
+</Atributo>
+<Atributo nome="cidade_uf" id="236">
+<Left Valor="804"/>
+<Top Valor="583"/>
+<Width Valor="82"/>
+<Height Valor="16"/>
+<Fonte default="-1"/>
+<Atributos/>
+<AtributosOcultos/>
+<Dicionario/>
+<Nula Valor="0"/>
+<Observacao/>
+<Anexos/>
+<MaxCard Valor="1"/>
+<MinCard Valor="1"/>
+<Composto Valor="0"/>
+<Identificador Valor="0"/>
+<Tipo Valor="Texto(1)"/>
+<Multivalorado Valor="0"/>
+<Orientacao Valor="2"/>
+<TamAuto Valor="-1"/>
+<Desvio Valor="10"/>
+<BarraID Valor="238"/>
+<Ligacoes>
+<Ligacao Destino_ID="84">
+<MostraCardinalidade Valor="0" Card_id="237"/>
+<Cardinalidades Cardinalidade="4"/>
+<Orientacao Valor="0"/>
+<Fraca Valor="0"/>
+</Ligacao>
+</Ligacoes>
+</Atributo>
+</Atributos>
+<AtributosOcultos/>
+<Dicionario/>
+<Nula Valor="0"/>
+<Observacao/>
+<Anexos/>
+<AutoRelacoes AutoRelacionado="0"/>
+<Especializacoes ehEsp="0"/>
+</Entidade>
+<Entidade nome="Devolução" id="91">
+<Left Valor="846"/>
+<Top Valor="117"/>
+<Width Valor="102"/>
+<Height Valor="66"/>
+<Fonte default="-1"/>
+<Atributos>
+<Atributo nome="Id_devolução" id="251">
+<Left Valor="731"/>
+<Top Valor="135"/>
+<Width Valor="104"/>
+<Height Valor="16"/>
+<Fonte default="-1"/>
+<Atributos/>
+<AtributosOcultos/>
+<Dicionario/>
+<Nula Valor="0"/>
+<Observacao/>
+<Anexos/>
+<MaxCard Valor="1"/>
+<MinCard Valor="1"/>
+<Composto Valor="0"/>
+<Identificador Valor="-1"/>
+<Tipo Valor="Texto(1)"/>
+<Multivalorado Valor="0"/>
+<Orientacao Valor="2"/>
+<TamAuto Valor="-1"/>
+<Desvio Valor="10"/>
+<BarraID Valor="253"/>
+<Ligacoes>
+<Ligacao Destino_ID="91">
+<MostraCardinalidade Valor="0" Card_id="252"/>
+<Cardinalidades Cardinalidade="4"/>
+<Orientacao Valor="0"/>
+<Fraca Valor="0"/>
+</Ligacao>
+</Ligacoes>
+</Atributo>
+<Atributo nome="Motivo" id="254">
+<Left Valor="764"/>
+<Top Valor="156"/>
+<Width Valor="66"/>
+<Height Valor="16"/>
+<Fonte default="-1"/>
+<Atributos/>
+<AtributosOcultos/>
+<Dicionario/>
+<Nula Valor="0"/>
+<Observacao/>
+<Anexos/>
+<MaxCard Valor="1"/>
+<MinCard Valor="1"/>
+<Composto Valor="0"/>
+<Identificador Valor="0"/>
+<Tipo Valor="Texto(1)"/>
+<Multivalorado Valor="0"/>
+<Orientacao Valor="2"/>
+<TamAuto Valor="-1"/>
+<Desvio Valor="10"/>
+<BarraID Valor="256"/>
+<Ligacoes>
+<Ligacao Destino_ID="91">
+<MostraCardinalidade Valor="0" Card_id="255"/>
+<Cardinalidades Cardinalidade="4"/>
+<Orientacao Valor="0"/>
+<Fraca Valor="0"/>
+</Ligacao>
+</Ligacoes>
+</Atributo>
+<Atributo nome="data" id="257">
+<Left Valor="776"/>
+<Top Valor="119"/>
+<Width Valor="53"/>
+<Height Valor="16"/>
+<Fonte default="-1"/>
+<Atributos/>
+<AtributosOcultos/>
+<Dicionario/>
+<Nula Valor="0"/>
+<Observacao/>
+<Anexos/>
+<MaxCard Valor="1"/>
+<MinCard Valor="1"/>
+<Composto Valor="0"/>
+<Identificador Valor="0"/>
+<Tipo Valor="Texto(1)"/>
+<Multivalorado Valor="0"/>
+<Orientacao Valor="2"/>
+<TamAuto Valor="-1"/>
+<Desvio Valor="10"/>
+<BarraID Valor="259"/>
+<Ligacoes>
+<Ligacao Destino_ID="91">
+<MostraCardinalidade Valor="0" Card_id="258"/>
+<Cardinalidades Cardinalidade="4"/>
+<Orientacao Valor="0"/>
+<Fraca Valor="0"/>
+</Ligacao>
+</Ligacoes>
+</Atributo>
+</Atributos>
+<AtributosOcultos/>
+<Dicionario/>
+<Nula Valor="0"/>
+<Observacao/>
+<Anexos/>
+<AutoRelacoes AutoRelacionado="0"/>
+<Especializacoes ehEsp="0"/>
+</Entidade>
+<Entidade nome="Funcionário" id="499">
+<Left Valor="66"/>
+<Top Valor="140"/>
+<Width Valor="102"/>
+<Height Valor="66"/>
+<Fonte default="-1"/>
+<Atributos>
+<Atributo nome="Id_func" id="503">
+<Left Valor="129"/>
+<Top Valor="109"/>
+<Width Valor="70"/>
+<Height Valor="16"/>
+<Fonte default="-1"/>
+<Atributos/>
+<AtributosOcultos/>
+<Dicionario/>
+<Nula Valor="0"/>
+<Observacao/>
+<Anexos/>
+<MaxCard Valor="1"/>
+<MinCard Valor="1"/>
+<Composto Valor="0"/>
+<Identificador Valor="-1"/>
+<Tipo Valor="Texto(1)"/>
+<Multivalorado Valor="0"/>
+<Orientacao Valor="3"/>
+<TamAuto Valor="-1"/>
+<Desvio Valor="10"/>
+<BarraID Valor="505"/>
+<Ligacoes>
+<Ligacao Destino_ID="499">
+<MostraCardinalidade Valor="0" Card_id="504"/>
+<Cardinalidades Cardinalidade="4"/>
+<Orientacao Valor="0"/>
+<Fraca Valor="0"/>
+</Ligacao>
+</Ligacoes>
+</Atributo>
+<Atributo nome="Nome" id="506">
+<Left Valor="65"/>
+<Top Valor="109"/>
+<Width Valor="59"/>
+<Height Valor="16"/>
+<Fonte default="-1"/>
+<Atributos/>
+<AtributosOcultos/>
+<Dicionario/>
+<Nula Valor="0"/>
+<Observacao/>
+<Anexos/>
+<MaxCard Valor="1"/>
+<MinCard Valor="1"/>
+<Composto Valor="0"/>
+<Identificador Valor="0"/>
+<Tipo Valor="Texto(1)"/>
+<Multivalorado Valor="0"/>
+<Orientacao Valor="3"/>
+<TamAuto Valor="-1"/>
+<Desvio Valor="10"/>
+<BarraID Valor="508"/>
+<Ligacoes>
+<Ligacao Destino_ID="499">
+<MostraCardinalidade Valor="0" Card_id="507"/>
+<Cardinalidades Cardinalidade="4"/>
+<Orientacao Valor="0"/>
+<Fraca Valor="0"/>
+</Ligacao>
+</Ligacoes>
+</Atributo>
+</Atributos>
+<AtributosOcultos/>
+<Dicionario/>
+<Nula Valor="0"/>
+<Observacao/>
+<Anexos/>
+<AutoRelacoes AutoRelacionado="0"/>
+<Especializacoes ehEsp="0"/>
+</Entidade>
+<Entidade nome="Servico" id="593">
+<Left Valor="456"/>
+<Top Valor="342"/>
+<Width Valor="102"/>
+<Height Valor="66"/>
+<Fonte default="-1"/>
+<Atributos/>
+<AtributosOcultos/>
+<Dicionario/>
+<Nula Valor="0"/>
+<Observacao/>
+<Anexos/>
+<AutoRelacoes AutoRelacionado="0"/>
+<Especializacoes ehEsp="0"/>
+</Entidade>
+</Entidades>
+<Relacoes>
+<Relacao nome="Gera" id="7">
+<Left Valor="762"/>
+<Top Valor="677"/>
+<Width Valor="102"/>
+<Height Valor="51"/>
+<Fonte default="-1"/>
+<Atributos/>
+<AtributosOcultos/>
+<Dicionario/>
+<Nula Valor="0"/>
+<Observacao/>
+<Anexos/>
+<Ligacoes>
+<Ligacao Destino_ID="1">
+<MostraCardinalidade Valor="-1" Card_id="8"/>
+<Cardinalidades Cardinalidade="2">
+<Cardinalidade nome="" id="8">
+<Left Valor="788"/>
+<Top Valor="523"/>
+<Width Valor="40"/>
+<Height Valor="20"/>
+<Fonte default="-1"/>
+<Atributos/>
+<AtributosOcultos/>
+<Dicionario/>
+<Nula Valor="0"/>
+<Observacao/>
+<Anexos/>
+<Cor Valor="15780518"/>
+<TamAuto Valor="-1"/>
+<Tipo Valor="0"/>
+<TextAlin Valor="0"/>
+<Card Valor="2"/>
+<Fixa Valor="0"/>
+<Ligacoes/>
+</Cardinalidade>
+</Cardinalidades>
+<Orientacao Valor="0"/>
+<Fraca Valor="0"/>
+</Ligacao>
+<Ligacao Destino_ID="6">
+<MostraCardinalidade Valor="-1" Card_id="9"/>
+<Cardinalidades Cardinalidade="3">
+<Cardinalidade nome="" id="9">
+<Left Valor="1485"/>
+<Top Valor="152"/>
+<Width Valor="40"/>
+<Height Valor="20"/>
+<Fonte default="-1"/>
+<Atributos/>
+<AtributosOcultos/>
+<Dicionario/>
+<Nula Valor="0"/>
+<Observacao/>
+<Anexos/>
+<Cor Valor="15780518"/>
+<TamAuto Valor="-1"/>
+<Tipo Valor="0"/>
+<TextAlin Valor="0"/>
+<Card Valor="3"/>
+<Fixa Valor="0"/>
+<Ligacoes/>
+</Cardinalidade>
+</Cardinalidades>
+<Orientacao Valor="0"/>
+<Fraca Valor="0"/>
+</Ligacao>
+</Ligacoes>
+</Relacao>
+<Relacao nome="Possui" id="12">
+<Left Valor="498"/>
+<Top Valor="611"/>
+<Width Valor="102"/>
+<Height Valor="51"/>
+<Fonte default="-1"/>
+<Atributos/>
+<AtributosOcultos/>
+<Dicionario/>
+<Nula Valor="0"/>
+<Observacao/>
+<Anexos/>
+<Ligacoes>
+<Ligacao Destino_ID="10">
+<MostraCardinalidade Valor="-1" Card_id="13"/>
+<Cardinalidades Cardinalidade="1">
+<Cardinalidade nome="" id="13">
+<Left Valor="343"/>
+<Top Valor="616"/>
+<Width Valor="40"/>
+<Height Valor="20"/>
+<Fonte default="-1"/>
+<Atributos/>
+<AtributosOcultos/>
+<Dicionario/>
+<Nula Valor="0"/>
+<Observacao/>
+<Anexos/>
+<Cor Valor="15780518"/>
+<TamAuto Valor="-1"/>
+<Tipo Valor="0"/>
+<TextAlin Valor="0"/>
+<Card Valor="1"/>
+<Fixa Valor="0"/>
+<Ligacoes/>
+</Cardinalidade>
+</Cardinalidades>
+<Orientacao Valor="1"/>
+<Fraca Valor="0"/>
+</Ligacao>
+<Ligacao Destino_ID="1">
+<MostraCardinalidade Valor="-1" Card_id="14"/>
+<Cardinalidades Cardinalidade="4">
+<Cardinalidade nome="" id="14">
+<Left Valor="682"/>
+<Top Valor="474"/>
+<Width Valor="40"/>
+<Height Valor="20"/>
+<Fonte default="-1"/>
+<Atributos/>
+<AtributosOcultos/>
+<Dicionario/>
+<Nula Valor="0"/>
+<Observacao/>
+<Anexos/>
+<Cor Valor="15780518"/>
+<TamAuto Valor="-1"/>
+<Tipo Valor="0"/>
+<TextAlin Valor="0"/>
+<Card Valor="4"/>
+<Fixa Valor="0"/>
+<Ligacoes/>
+</Cardinalidade>
+</Cardinalidades>
+<Orientacao Valor="1"/>
+<Fraca Valor="0"/>
+</Ligacao>
+</Ligacoes>
+</Relacao>
+<Relacao nome="Contém" id="31">
+<Left Valor="537"/>
+<Top Valor="359"/>
+<Width Valor="102"/>
+<Height Valor="51"/>
+<Fonte default="-1"/>
+<Atributos/>
+<AtributosOcultos/>
+<Dicionario/>
+<Nula Valor="0"/>
+<Observacao/>
+<Anexos/>
+<Ligacoes>
+<Ligacao Destino_ID="26">
+<MostraCardinalidade Valor="-1" Card_id="33"/>
+<Cardinalidades Cardinalidade="2">
+<Cardinalidade nome="" id="33">
+<Left Valor="445"/>
+<Top Valor="439"/>
+<Width Valor="40"/>
+<Height Valor="20"/>
+<Fonte default="-1"/>
+<Atributos/>
+<AtributosOcultos/>
+<Dicionario/>
+<Nula Valor="0"/>
+<Observacao/>
+<Anexos/>
+<Cor Valor="15780518"/>
+<TamAuto Valor="-1"/>
+<Tipo Valor="0"/>
+<TextAlin Valor="0"/>
+<Card Valor="2"/>
+<Fixa Valor="0"/>
+<Ligacoes/>
+</Cardinalidade>
+</Cardinalidades>
+<Orientacao Valor="1"/>
+<Fraca Valor="0"/>
+</Ligacao>
+<Ligacao Destino_ID="20">
+<MostraCardinalidade Valor="-1" Card_id="34"/>
+<Cardinalidades Cardinalidade="1">
+<Cardinalidade nome="" id="34">
+<Left Valor="705"/>
+<Top Valor="365"/>
+<Width Valor="40"/>
+<Height Valor="20"/>
+<Fonte default="-1"/>
+<Atributos/>
+<AtributosOcultos/>
+<Dicionario/>
+<Nula Valor="0"/>
+<Observacao/>
+<Anexos/>
+<Cor Valor="15780518"/>
+<TamAuto Valor="-1"/>
+<Tipo Valor="0"/>
+<TextAlin Valor="0"/>
+<Card Valor="1"/>
+<Fixa Valor="0"/>
+<Ligacoes/>
+</Cardinalidade>
+</Cardinalidades>
+<Orientacao Valor="1"/>
+<Fraca Valor="0"/>
+</Ligacao>
+</Ligacoes>
+</Relacao>
+<Relacao nome="Contém" id="59">
+<Left Valor="251"/>
+<Top Valor="402"/>
+<Width Valor="102"/>
+<Height Valor="51"/>
+<Fonte default="-1"/>
+<Atributos/>
+<AtributosOcultos/>
+<Dicionario/>
+<Nula Valor="0"/>
+<Observacao/>
+<Anexos/>
+<Ligacoes>
+<Ligacao Destino_ID="35">
+<MostraCardinalidade Valor="-1" Card_id="60"/>
+<Cardinalidades Cardinalidade="3">
+<Cardinalidade nome="" id="60">
+<Left Valor="355"/>
+<Top Valor="288"/>
+<Width Valor="40"/>
+<Height Valor="20"/>
+<Fonte default="-1"/>
+<Atributos/>
+<AtributosOcultos/>
+<Dicionario/>
+<Nula Valor="0"/>
+<Observacao/>
+<Anexos/>
+<Cor Valor="15780518"/>
+<TamAuto Valor="-1"/>
+<Tipo Valor="0"/>
+<TextAlin Valor="0"/>
+<Card Valor="3"/>
+<Fixa Valor="0"/>
+<Ligacoes/>
+</Cardinalidade>
+</Cardinalidades>
+<Orientacao Valor="0"/>
+<Fraca Valor="-1"/>
+</Ligacao>
+<Ligacao Destino_ID="10">
+<MostraCardinalidade Valor="-1" Card_id="61"/>
+<Cardinalidades Cardinalidade="1">
+<Cardinalidade nome="" id="61">
+<Left Valor="275"/>
+<Top Valor="584"/>
+<Width Valor="40"/>
+<Height Valor="20"/>
+<Fonte default="-1"/>
+<Atributos/>
+<AtributosOcultos/>
+<Dicionario/>
+<Nula Valor="0"/>
+<Observacao/>
+<Anexos/>
+<Cor Valor="15780518"/>
+<TamAuto Valor="-1"/>
+<Tipo Valor="0"/>
+<TextAlin Valor="0"/>
+<Card Valor="1"/>
+<Fixa Valor="0"/>
+<Ligacoes/>
+</Cardinalidade>
+</Cardinalidades>
+<Orientacao Valor="0"/>
+<Fraca Valor="0"/>
+</Ligacao>
+</Ligacoes>
+</Relacao>
+<Relacao nome="Vincula" id="68">
+<Left Valor="151"/>
+<Top Valor="213"/>
+<Width Valor="102"/>
+<Height Valor="51"/>
+<Fonte default="-1"/>
+<Atributos/>
+<AtributosOcultos/>
+<Dicionario/>
+<Nula Valor="0"/>
+<Observacao/>
+<Anexos/>
+<Ligacoes>
+<Ligacao Destino_ID="35">
+<MostraCardinalidade Valor="-1" Card_id="69"/>
+<Cardinalidades Cardinalidade="4">
+<Cardinalidade nome="" id="69">
+<Left Valor="292"/>
+<Top Valor="238"/>
+<Width Valor="40"/>
+<Height Valor="20"/>
+<Fonte default="-1"/>
+<Atributos/>
+<AtributosOcultos/>
+<Dicionario/>
+<Nula Valor="0"/>
+<Observacao/>
+<Anexos/>
+<Cor Valor="15780518"/>
+<TamAuto Valor="-1"/>
+<Tipo Valor="0"/>
+<TextAlin Valor="0"/>
+<Card Valor="4"/>
+<Fixa Valor="0"/>
+<Ligacoes/>
+</Cardinalidade>
+</Cardinalidades>
+<Orientacao Valor="0"/>
+<Fraca Valor="-1"/>
+</Ligacao>
+<Ligacao Destino_ID="62">
+<MostraCardinalidade Valor="-1" Card_id="70"/>
+<Cardinalidades Cardinalidade="1">
+<Cardinalidade nome="" id="70">
+<Left Valor="195"/>
+<Top Valor="278"/>
+<Width Valor="40"/>
+<Height Valor="20"/>
+<Fonte default="-1"/>
+<Atributos/>
+<AtributosOcultos/>
+<Dicionario/>
+<Nula Valor="0"/>
+<Observacao/>
+<Anexos/>
+<Cor Valor="15780518"/>
+<TamAuto Valor="-1"/>
+<Tipo Valor="0"/>
+<TextAlin Valor="0"/>
+<Card Valor="1"/>
+<Fixa Valor="0"/>
+<Ligacoes/>
+</Cardinalidade>
+</Cardinalidades>
+<Orientacao Valor="1"/>
+<Fraca Valor="0"/>
+</Ligacao>
+</Ligacoes>
+</Relacao>
+<Relacao nome="Gera" id="71">
+<Left Valor="538"/>
+<Top Valor="66"/>
+<Width Valor="102"/>
+<Height Valor="51"/>
+<Fonte default="-1"/>
+<Atributos/>
+<AtributosOcultos/>
+<Dicionario/>
+<Nula Valor="0"/>
+<Observacao/>
+<Anexos/>
+<Ligacoes>
+<Ligacao Destino_ID="6">
+<MostraCardinalidade Valor="-1" Card_id="73"/>
+<Cardinalidades Cardinalidade="3">
+<Cardinalidade nome="" id="73">
+<Left Valor="1379"/>
+<Top Valor="92"/>
+<Width Valor="40"/>
+<Height Valor="20"/>
+<Fonte default="-1"/>
+<Atributos/>
+<AtributosOcultos/>
+<Dicionario/>
+<Nula Valor="0"/>
+<Observacao/>
+<Anexos/>
+<Cor Valor="15780518"/>
+<TamAuto Valor="-1"/>
+<Tipo Valor="0"/>
+<TextAlin Valor="0"/>
+<Card Valor="3"/>
+<Fixa Valor="0"/>
+<Ligacoes/>
+</Cardinalidade>
+</Cardinalidades>
+<Orientacao Valor="1"/>
+<Fraca Valor="0"/>
+</Ligacao>
+<Ligacao Destino_ID="35">
+<MostraCardinalidade Valor="-1" Card_id="74"/>
+<Cardinalidades Cardinalidade="2">
+<Cardinalidade nome="" id="74">
+<Left Valor="405"/>
+<Top Valor="206"/>
+<Width Valor="40"/>
+<Height Valor="20"/>
+<Fonte default="-1"/>
+<Atributos/>
+<AtributosOcultos/>
+<Dicionario/>
+<Nula Valor="0"/>
+<Observacao/>
+<Anexos/>
+<Cor Valor="15780518"/>
+<TamAuto Valor="-1"/>
+<Tipo Valor="0"/>
+<TextAlin Valor="0"/>
+<Card Valor="2"/>
+<Fixa Valor="0"/>
+<Ligacoes/>
+</Cardinalidade>
+</Cardinalidades>
+<Orientacao Valor="1"/>
+<Fraca Valor="0"/>
+</Ligacao>
+</Ligacoes>
+</Relacao>
+<Relacao nome="Possui" id="85">
+<Left Valor="1102"/>
+<Top Valor="523"/>
+<Width Valor="102"/>
+<Height Valor="51"/>
+<Fonte default="-1"/>
+<Atributos/>
+<AtributosOcultos/>
+<Dicionario/>
+<Nula Valor="0"/>
+<Observacao/>
+<Anexos/>
+<Ligacoes>
+<Ligacao Destino_ID="75">
+<MostraCardinalidade Valor="-1" Card_id="86"/>
+<Cardinalidades Cardinalidade="3">
+<Cardinalidade nome="" id="86">
+<Left Valor="1188"/>
+<Top Valor="485"/>
+<Width Valor="40"/>
+<Height Valor="20"/>
+<Fonte default="-1"/>
+<Atributos/>
+<AtributosOcultos/>
+<Dicionario/>
+<Nula Valor="0"/>
+<Observacao/>
+<Anexos/>
+<Cor Valor="15780518"/>
+<TamAuto Valor="-1"/>
+<Tipo Valor="0"/>
+<TextAlin Valor="0"/>
+<Card Valor="3"/>
+<Fixa Valor="0"/>
+<Ligacoes/>
+</Cardinalidade>
+</Cardinalidades>
+<Orientacao Valor="1"/>
+<Fraca Valor="0"/>
+</Ligacao>
+<Ligacao Destino_ID="84">
+<MostraCardinalidade Valor="-1" Card_id="87"/>
+<Cardinalidades Cardinalidade="1">
+<Cardinalidade nome="" id="87">
+<Left Valor="1004"/>
+<Top Valor="547"/>
+<Width Valor="40"/>
+<Height Valor="20"/>
+<Fonte default="-1"/>
+<Atributos/>
+<AtributosOcultos/>
+<Dicionario/>
+<Nula Valor="0"/>
+<Observacao/>
+<Anexos/>
+<Cor Valor="15780518"/>
+<TamAuto Valor="-1"/>
+<Tipo Valor="0"/>
+<TextAlin Valor="0"/>
+<Card Valor="1"/>
+<Fixa Valor="0"/>
+<Ligacoes/>
+</Cardinalidade>
+</Cardinalidades>
+<Orientacao Valor="0"/>
+<Fraca Valor="0"/>
+</Ligacao>
+</Ligacoes>
+</Relacao>
+<Relacao nome="Compra_Finan" id="88">
+<Left Valor="1242"/>
+<Top Valor="184"/>
+<Width Valor="102"/>
+<Height Valor="51"/>
+<Fonte default="-1"/>
+<Atributos/>
+<AtributosOcultos/>
+<Dicionario/>
+<Nula Valor="0"/>
+<Observacao/>
+<Anexos/>
+<Ligacoes>
+<Ligacao Destino_ID="75">
+<MostraCardinalidade Valor="-1" Card_id="89"/>
+<Cardinalidades Cardinalidade="2">
+<Cardinalidade nome="" id="89">
+<Left Valor="1205"/>
+<Top Valor="403"/>
+<Width Valor="40"/>
+<Height Valor="20"/>
+<Fonte default="-1"/>
+<Atributos/>
+<AtributosOcultos/>
+<Dicionario/>
+<Nula Valor="0"/>
+<Observacao/>
+<Anexos/>
+<Cor Valor="15780518"/>
+<TamAuto Valor="-1"/>
+<Tipo Valor="0"/>
+<TextAlin Valor="0"/>
+<Card Valor="2"/>
+<Fixa Valor="0"/>
+<Ligacoes/>
+</Cardinalidade>
+</Cardinalidades>
+<Orientacao Valor="0"/>
+<Fraca Valor="0"/>
+</Ligacao>
+<Ligacao Destino_ID="6">
+<MostraCardinalidade Valor="-1" Card_id="90"/>
+<Cardinalidades Cardinalidade="3">
+<Cardinalidade nome="" id="90">
+<Left Valor="1379"/>
+<Top Valor="114"/>
+<Width Valor="40"/>
+<Height Valor="20"/>
+<Fonte default="-1"/>
+<Atributos/>
+<AtributosOcultos/>
+<Dicionario/>
+<Nula Valor="0"/>
+<Observacao/>
+<Anexos/>
+<Cor Valor="15780518"/>
+<TamAuto Valor="-1"/>
+<Tipo Valor="0"/>
+<TextAlin Valor="0"/>
+<Card Valor="3"/>
+<Fixa Valor="0"/>
+<Ligacoes/>
+</Cardinalidade>
+</Cardinalidades>
+<Orientacao Valor="1"/>
+<Fraca Valor="0"/>
+</Ligacao>
+</Ligacoes>
+</Relacao>
+<Relacao nome="Contém" id="92">
+<Left Valor="995"/>
+<Top Valor="126"/>
+<Width Valor="102"/>
+<Height Valor="51"/>
+<Fonte default="-1"/>
+<Atributos/>
+<AtributosOcultos/>
+<Dicionario/>
+<Nula Valor="0"/>
+<Observacao/>
+<Anexos/>
+<Ligacoes>
+<Ligacao Destino_ID="77">
+<MostraCardinalidade Valor="-1" Card_id="93"/>
+<Cardinalidades Cardinalidade="1">
+<Cardinalidade nome="" id="93">
+<Left Valor="1030"/>
+<Top Valor="247"/>
+<Width Valor="40"/>
+<Height Valor="20"/>
+<Fonte default="-1"/>
+<Atributos/>
+<AtributosOcultos/>
+<Dicionario/>
+<Nula Valor="0"/>
+<Observacao/>
+<Anexos/>
+<Cor Valor="15780518"/>
+<TamAuto Valor="-1"/>
+<Tipo Valor="0"/>
+<TextAlin Valor="0"/>
+<Card Valor="1"/>
+<Fixa Valor="0"/>
+<Ligacoes/>
+</Cardinalidade>
+</Cardinalidades>
+<Orientacao Valor="1"/>
+<Fraca Valor="0"/>
+</Ligacao>
+<Ligacao Destino_ID="91">
+<MostraCardinalidade Valor="-1" Card_id="94"/>
+<Cardinalidades Cardinalidade="2">
+<Cardinalidade nome="" id="94">
+<Left Valor="948"/>
+<Top Valor="135"/>
+<Width Valor="40"/>
+<Height Valor="20"/>
+<Fonte default="-1"/>
+<Atributos/>
+<AtributosOcultos/>
+<Dicionario/>
+<Nula Valor="0"/>
+<Observacao/>
+<Anexos/>
+<Cor Valor="15780518"/>
+<TamAuto Valor="-1"/>
+<Tipo Valor="0"/>
+<TextAlin Valor="0"/>
+<Card Valor="2"/>
+<Fixa Valor="0"/>
+<Ligacoes/>
+</Cardinalidade>
+</Cardinalidades>
+<Orientacao Valor="0"/>
+<Fraca Valor="0"/>
+</Ligacao>
+</Ligacoes>
+</Relacao>
+<Relacao nome="Vincula" id="500">
+<Left Valor="242"/>
+<Top Valor="116"/>
+<Width Valor="102"/>
+<Height Valor="51"/>
+<Fonte default="-1"/>
+<Atributos/>
+<AtributosOcultos/>
+<Dicionario/>
+<Nula Valor="0"/>
+<Observacao/>
+<Anexos/>
+<Ligacoes>
+<Ligacao Destino_ID="35">
+<MostraCardinalidade Valor="-1" Card_id="501"/>
+<Cardinalidades Cardinalidade="4">
+<Cardinalidade nome="" id="501">
+<Left Valor="355"/>
+<Top Valor="206"/>
+<Width Valor="40"/>
+<Height Valor="20"/>
+<Fonte default="-1"/>
+<Atributos/>
+<AtributosOcultos/>
+<Dicionario/>
+<Nula Valor="0"/>
+<Observacao/>
+<Anexos/>
+<Cor Valor="15780518"/>
+<TamAuto Valor="-1"/>
+<Tipo Valor="0"/>
+<TextAlin Valor="0"/>
+<Card Valor="4"/>
+<Fixa Valor="0"/>
+<Ligacoes/>
+</Cardinalidade>
+</Cardinalidades>
+<Orientacao Valor="0"/>
+<Fraca Valor="-1"/>
+</Ligacao>
+<Ligacao Destino_ID="499">
+<MostraCardinalidade Valor="-1" Card_id="502"/>
+<Cardinalidades Cardinalidade="1">
+<Cardinalidade nome="" id="502">
+<Left Valor="168"/>
+<Top Valor="158"/>
+<Width Valor="40"/>
+<Height Valor="20"/>
+<Fonte default="-1"/>
+<Atributos/>
+<AtributosOcultos/>
+<Dicionario/>
+<Nula Valor="0"/>
+<Observacao/>
+<Anexos/>
+<Cor Valor="15780518"/>
+<TamAuto Valor="-1"/>
+<Tipo Valor="0"/>
+<TextAlin Valor="0"/>
+<Card Valor="1"/>
+<Fixa Valor="0"/>
+<Ligacoes/>
+</Cardinalidade>
+</Cardinalidades>
+<Orientacao Valor="1"/>
+<Fraca Valor="0"/>
+</Ligacao>
+</Ligacoes>
+</Relacao>
+<Relacao nome="realiza" id="587">
+<Left Valor="51"/>
+<Top Valor="772"/>
+<Width Valor="102"/>
+<Height Valor="51"/>
+<Fonte default="-1"/>
+<Atributos/>
+<AtributosOcultos/>
+<Dicionario/>
+<Nula Valor="0"/>
+<Observacao/>
+<Anexos/>
+<Ligacoes>
+<Ligacao Destino_ID="1">
+<MostraCardinalidade Valor="-1" Card_id="588"/>
+<Cardinalidades Cardinalidade="4">
+<Cardinalidade nome="" id="588">
+<Left Valor="754"/>
+<Top Valor="523"/>
+<Width Valor="40"/>
+<Height Valor="20"/>
+<Fonte default="-1"/>
+<Atributos/>
+<AtributosOcultos/>
+<Dicionario/>
+<Nula Valor="0"/>
+<Observacao/>
+<Anexos/>
+<Cor Valor="15780518"/>
+<TamAuto Valor="-1"/>
+<Tipo Valor="0"/>
+<TextAlin Valor="0"/>
+<Card Valor="4"/>
+<Fixa Valor="0"/>
+<Ligacoes/>
+</Cardinalidade>
+</Cardinalidades>
+<Orientacao Valor="0"/>
+<Fraca Valor="0"/>
+</Ligacao>
+<Ligacao Destino_ID="499">
+<MostraCardinalidade Valor="-1" Card_id="589"/>
+<Cardinalidades Cardinalidade="1">
+<Cardinalidade nome="" id="589">
+<Left Valor="100"/>
+<Top Valor="207"/>
+<Width Valor="40"/>
+<Height Valor="20"/>
+<Fonte default="-1"/>
+<Atributos/>
+<AtributosOcultos/>
+<Dicionario/>
+<Nula Valor="0"/>
+<Observacao/>
+<Anexos/>
+<Cor Valor="15780518"/>
+<TamAuto Valor="-1"/>
+<Tipo Valor="0"/>
+<TextAlin Valor="0"/>
+<Card Valor="1"/>
+<Fixa Valor="0"/>
+<Ligacoes/>
+</Cardinalidade>
+</Cardinalidades>
+<Orientacao Valor="0"/>
+<Fraca Valor="0"/>
+</Ligacao>
+</Ligacoes>
+</Relacao>
+<Relacao nome="realiza" id="590">
+<Left Valor="492"/>
+<Top Valor="729"/>
+<Width Valor="102"/>
+<Height Valor="51"/>
+<Fonte default="-1"/>
+<Atributos/>
+<AtributosOcultos/>
+<Dicionario/>
+<Nula Valor="0"/>
+<Observacao/>
+<Anexos/>
+<Ligacoes>
+<Ligacao Destino_ID="75">
+<MostraCardinalidade Valor="-1" Card_id="591"/>
+<Cardinalidades Cardinalidade="4">
+<Cardinalidade nome="" id="591">
+<Left Valor="1222"/>
+<Top Valor="485"/>
+<Width Valor="40"/>
+<Height Valor="20"/>
+<Fonte default="-1"/>
+<Atributos/>
+<AtributosOcultos/>
+<Dicionario/>
+<Nula Valor="0"/>
+<Observacao/>
+<Anexos/>
+<Cor Valor="15780518"/>
+<TamAuto Valor="-1"/>
+<Tipo Valor="0"/>
+<TextAlin Valor="0"/>
+<Card Valor="4"/>
+<Fixa Valor="0"/>
+<Ligacoes/>
+</Cardinalidade>
+</Cardinalidades>
+<Orientacao Valor="0"/>
+<Fraca Valor="0"/>
+</Ligacao>
+<Ligacao Destino_ID="499">
+<MostraCardinalidade Valor="-1" Card_id="592"/>
+<Cardinalidades Cardinalidade="4">
+<Cardinalidade nome="" id="592">
+<Left Valor="134"/>
+<Top Valor="207"/>
+<Width Valor="40"/>
+<Height Valor="20"/>
+<Fonte default="-1"/>
+<Atributos/>
+<AtributosOcultos/>
+<Dicionario/>
+<Nula Valor="0"/>
+<Observacao/>
+<Anexos/>
+<Cor Valor="15780518"/>
+<TamAuto Valor="-1"/>
+<Tipo Valor="0"/>
+<TextAlin Valor="0"/>
+<Card Valor="4"/>
+<Fixa Valor="0"/>
+<Ligacoes/>
+</Cardinalidade>
+</Cardinalidades>
+<Orientacao Valor="0"/>
+<Fraca Valor="0"/>
+</Ligacao>
+</Ligacoes>
+</Relacao>
+</Relacoes>
+<EntAssoss>
+<EntidadeAssoss nome="Item_Venda" id="20">
+<Left Valor="743"/>
+<Top Valor="347"/>
+<Width Valor="127"/>
+<Height Valor="66"/>
+<Fonte default="-1"/>
+<Atributos>
+<Atributo nome="Qtidade" id="200">
+<Left Valor="906"/>
+<Top Valor="345"/>
+<Width Valor="71"/>
+<Height Valor="16"/>
+<Fonte default="-1"/>
+<Atributos/>
+<AtributosOcultos/>
+<Dicionario/>
+<Nula Valor="0"/>
+<Observacao/>
+<Anexos/>
+<MaxCard Valor="1"/>
+<MinCard Valor="1"/>
+<Composto Valor="0"/>
+<Identificador Valor="0"/>
+<Tipo Valor="Texto(1)"/>
+<Multivalorado Valor="0"/>
+<Orientacao Valor="3"/>
+<TamAuto Valor="-1"/>
+<Desvio Valor="10"/>
+<BarraID Valor="202"/>
+<Ligacoes>
+<Ligacao Destino_ID="20">
+<MostraCardinalidade Valor="0" Card_id="201"/>
+<Cardinalidades Cardinalidade="4"/>
+<Orientacao Valor="0"/>
+<Fraca Valor="0"/>
+</Ligacao>
+</Ligacoes>
+</Atributo>
+<Atributo nome="prc_venda" id="203">
+<Left Valor="908"/>
+<Top Valor="375"/>
+<Width Valor="87"/>
+<Height Valor="16"/>
+<Fonte default="-1"/>
+<Atributos/>
+<AtributosOcultos/>
+<Dicionario/>
+<Nula Valor="0"/>
+<Observacao/>
+<Anexos/>
+<MaxCard Valor="1"/>
+<MinCard Valor="1"/>
+<Composto Valor="0"/>
+<Identificador Valor="0"/>
+<Tipo Valor="Texto(1)"/>
+<Multivalorado Valor="0"/>
+<Orientacao Valor="3"/>
+<TamAuto Valor="-1"/>
+<Desvio Valor="10"/>
+<BarraID Valor="205"/>
+<Ligacoes>
+<Ligacao Destino_ID="20">
+<MostraCardinalidade Valor="0" Card_id="204"/>
+<Cardinalidades Cardinalidade="4"/>
+<Orientacao Valor="0"/>
+<Fraca Valor="0"/>
+</Ligacao>
+</Ligacoes>
+</Atributo>
+<Atributo nome="desconto" id="206">
+<Left Valor="910"/>
+<Top Valor="360"/>
+<Width Valor="79"/>
+<Height Valor="16"/>
+<Fonte default="-1"/>
+<Atributos/>
+<AtributosOcultos/>
+<Dicionario/>
+<Nula Valor="0"/>
+<Observacao/>
+<Anexos/>
+<MaxCard Valor="1"/>
+<MinCard Valor="1"/>
+<Composto Valor="0"/>
+<Identificador Valor="0"/>
+<Tipo Valor="Texto(1)"/>
+<Multivalorado Valor="0"/>
+<Orientacao Valor="3"/>
+<TamAuto Valor="-1"/>
+<Desvio Valor="10"/>
+<BarraID Valor="208"/>
+<Ligacoes>
+<Ligacao Destino_ID="20">
+<MostraCardinalidade Valor="0" Card_id="207"/>
+<Cardinalidades Cardinalidade="4"/>
+<Orientacao Valor="0"/>
+<Fraca Valor="0"/>
+</Ligacao>
+</Ligacoes>
+</Atributo>
+<Atributo nome="acrescimo" id="209">
+<Left Valor="905"/>
+<Top Valor="394"/>
+<Width Valor="85"/>
+<Height Valor="16"/>
+<Fonte default="-1"/>
+<Atributos/>
+<AtributosOcultos/>
+<Dicionario/>
+<Nula Valor="0"/>
+<Observacao/>
+<Anexos/>
+<MaxCard Valor="1"/>
+<MinCard Valor="1"/>
+<Composto Valor="0"/>
+<Identificador Valor="0"/>
+<Tipo Valor="Texto(1)"/>
+<Multivalorado Valor="0"/>
+<Orientacao Valor="3"/>
+<TamAuto Valor="-1"/>
+<Desvio Valor="10"/>
+<BarraID Valor="211"/>
+<Ligacoes>
+<Ligacao Destino_ID="20">
+<MostraCardinalidade Valor="0" Card_id="210"/>
+<Cardinalidades Cardinalidade="4"/>
+<Orientacao Valor="0"/>
+<Fraca Valor="0"/>
+</Ligacao>
+</Ligacoes>
+</Atributo>
+<Atributo nome="Id_itemv" id="269">
+<Left Valor="847"/>
+<Top Valor="327"/>
+<Width Valor="79"/>
+<Height Valor="16"/>
+<Fonte default="-1"/>
+<Atributos/>
+<AtributosOcultos/>
+<Dicionario/>
+<Nula Valor="0"/>
+<Observacao/>
+<Anexos/>
+<MaxCard Valor="1"/>
+<MinCard Valor="1"/>
+<Composto Valor="0"/>
+<Identificador Valor="-1"/>
+<Tipo Valor="Texto(1)"/>
+<Multivalorado Valor="0"/>
+<Orientacao Valor="3"/>
+<TamAuto Valor="-1"/>
+<Desvio Valor="10"/>
+<BarraID Valor="271"/>
+<Ligacoes>
+<Ligacao Destino_ID="20">
+<MostraCardinalidade Valor="0" Card_id="270"/>
+<Cardinalidades Cardinalidade="4"/>
+<Orientacao Valor="0"/>
+<Fraca Valor="0"/>
+</Ligacao>
+</Ligacoes>
+</Atributo>
+</Atributos>
+<AtributosOcultos/>
+<Dicionario/>
+<Nula Valor="0"/>
+<Observacao/>
+<Anexos/>
+<AutoRelacoes AutoRelacionado="0"/>
+<ChildRelacao nome="Necessita" id="21">
+<Left Valor="758"/>
+<Top Valor="362"/>
+<Width Valor="97"/>
+<Height Valor="36"/>
+<Fonte default="-1"/>
+<Atributos/>
+<AtributosOcultos/>
+<Dicionario/>
+<Nula Valor="0"/>
+<Observacao/>
+<Anexos/>
+<Ligacoes>
+<Ligacao Destino_ID="2">
+<MostraCardinalidade Valor="-1" Card_id="22"/>
+<Cardinalidades Cardinalidade="3">
+<Cardinalidade nome="" id="22">
+<Left Valor="766"/>
+<Top Valor="323"/>
+<Width Valor="40"/>
+<Height Valor="20"/>
+<Fonte default="-1"/>
+<Atributos/>
+<AtributosOcultos/>
+<Dicionario/>
+<Nula Valor="0"/>
+<Observacao/>
+<Anexos/>
+<Cor Valor="15780518"/>
+<TamAuto Valor="-1"/>
+<Tipo Valor="0"/>
+<TextAlin Valor="0"/>
+<Card Valor="3"/>
+<Fixa Valor="0"/>
+<Ligacoes/>
+</Cardinalidade>
+</Cardinalidades>
+<Orientacao Valor="0"/>
+<Fraca Valor="0"/>
+</Ligacao>
+<Ligacao Destino_ID="1">
+<MostraCardinalidade Valor="-1" Card_id="23"/>
+<Cardinalidades Cardinalidade="4">
+<Cardinalidade nome="" id="23">
+<Left Valor="771"/>
+<Top Valor="441"/>
+<Width Valor="40"/>
+<Height Valor="20"/>
+<Fonte default="-1"/>
+<Atributos/>
+<AtributosOcultos/>
+<Dicionario/>
+<Nula Valor="0"/>
+<Observacao/>
+<Anexos/>
+<Cor Valor="15780518"/>
+<TamAuto Valor="-1"/>
+<Tipo Valor="0"/>
+<TextAlin Valor="0"/>
+<Card Valor="4"/>
+<Fixa Valor="0"/>
+<Ligacoes/>
+</Cardinalidade>
+</Cardinalidades>
+<Orientacao Valor="0"/>
+<Fraca Valor="0"/>
+</Ligacao>
+</Ligacoes>
+</ChildRelacao>
+</EntidadeAssoss>
+<EntidadeAssoss nome="Peça_OS" id="36">
+<Left Valor="513"/>
+<Top Valor="216"/>
+<Width Valor="127"/>
+<Height Valor="66"/>
+<Fonte default="-1"/>
+<Atributos>
+<Atributo nome="Data" id="134">
+<Left Valor="559"/>
+<Top Valor="174"/>
+<Width Valor="54"/>
+<Height Valor="16"/>
+<Fonte default="-1"/>
+<Atributos/>
+<AtributosOcultos/>
+<Dicionario/>
+<Nula Valor="0"/>
+<Observacao/>
+<Anexos/>
+<MaxCard Valor="1"/>
+<MinCard Valor="1"/>
+<Composto Valor="0"/>
+<Identificador Valor="0"/>
+<Tipo Valor="Texto(1)"/>
+<Multivalorado Valor="0"/>
+<Orientacao Valor="3"/>
+<TamAuto Valor="-1"/>
+<Desvio Valor="10"/>
+<BarraID Valor="136"/>
+<Ligacoes>
+<Ligacao Destino_ID="36">
+<MostraCardinalidade Valor="0" Card_id="135"/>
+<Cardinalidades Cardinalidade="4"/>
+<Orientacao Valor="0"/>
+<Fraca Valor="0"/>
+</Ligacao>
+</Ligacoes>
+</Atributo>
+<Atributo nome="Qtidade" id="137">
+<Left Valor="510"/>
+<Top Valor="156"/>
+<Width Valor="71"/>
+<Height Valor="16"/>
+<Fonte default="-1"/>
+<Atributos/>
+<AtributosOcultos/>
+<Dicionario/>
+<Nula Valor="0"/>
+<Observacao/>
+<Anexos/>
+<MaxCard Valor="1"/>
+<MinCard Valor="1"/>
+<Composto Valor="0"/>
+<Identificador Valor="0"/>
+<Tipo Valor="Texto(1)"/>
+<Multivalorado Valor="0"/>
+<Orientacao Valor="3"/>
+<TamAuto Valor="-1"/>
+<Desvio Valor="10"/>
+<BarraID Valor="139"/>
+<Ligacoes>
+<Ligacao Destino_ID="36">
+<MostraCardinalidade Valor="0" Card_id="138"/>
+<Cardinalidades Cardinalidade="4"/>
+<Orientacao Valor="0"/>
+<Fraca Valor="0"/>
+</Ligacao>
+</Ligacoes>
+</Atributo>
+<Atributo nome="Hora" id="140">
+<Left Valor="582"/>
+<Top Valor="192"/>
+<Width Valor="54"/>
+<Height Valor="16"/>
+<Fonte default="-1"/>
+<Atributos/>
+<AtributosOcultos/>
+<Dicionario/>
+<Nula Valor="0"/>
+<Observacao/>
+<Anexos/>
+<MaxCard Valor="1"/>
+<MinCard Valor="1"/>
+<Composto Valor="0"/>
+<Identificador Valor="0"/>
+<Tipo Valor="Texto(1)"/>
+<Multivalorado Valor="0"/>
+<Orientacao Valor="3"/>
+<TamAuto Valor="-1"/>
+<Desvio Valor="10"/>
+<BarraID Valor="142"/>
+<Ligacoes>
+<Ligacao Destino_ID="36">
+<MostraCardinalidade Valor="0" Card_id="141"/>
+<Cardinalidades Cardinalidade="4"/>
+<Orientacao Valor="0"/>
+<Fraca Valor="0"/>
+</Ligacao>
+</Ligacoes>
+</Atributo>
+<Atributo nome="prc_venda" id="263">
+<Left Valor="639"/>
+<Top Valor="200"/>
+<Width Valor="87"/>
+<Height Valor="16"/>
+<Fonte default="-1"/>
+<Atributos/>
+<AtributosOcultos/>
+<Dicionario/>
+<Nula Valor="0"/>
+<Observacao/>
+<Anexos/>
+<MaxCard Valor="1"/>
+<MinCard Valor="1"/>
+<Composto Valor="0"/>
+<Identificador Valor="0"/>
+<Tipo Valor="Texto(1)"/>
+<Multivalorado Valor="0"/>
+<Orientacao Valor="3"/>
+<TamAuto Valor="-1"/>
+<Desvio Valor="10"/>
+<BarraID Valor="265"/>
+<Ligacoes>
+<Ligacao Destino_ID="36">
+<MostraCardinalidade Valor="0" Card_id="264"/>
+<Cardinalidades Cardinalidade="4"/>
+<Orientacao Valor="0"/>
+<Fraca Valor="0"/>
+</Ligacao>
+</Ligacoes>
+</Atributo>
+</Atributos>
+<AtributosOcultos/>
+<Dicionario/>
+<Nula Valor="0"/>
+<Observacao/>
+<Anexos/>
+<AutoRelacoes AutoRelacionado="0"/>
+<ChildRelacao nome="Utiliza" id="37">
+<Left Valor="528"/>
+<Top Valor="231"/>
+<Width Valor="97"/>
+<Height Valor="36"/>
+<Fonte default="-1"/>
+<Atributos/>
+<AtributosOcultos/>
+<Dicionario/>
+<Nula Valor="0"/>
+<Observacao/>
+<Anexos/>
+<Ligacoes>
+<Ligacao Destino_ID="2">
+<MostraCardinalidade Valor="-1" Card_id="38"/>
+<Cardinalidades Cardinalidade="4">
+<Cardinalidade nome="" id="38">
+<Left Valor="677"/>
+<Top Valor="254"/>
+<Width Valor="40"/>
+<Height Valor="20"/>
+<Fonte default="-1"/>
+<Atributos/>
+<AtributosOcultos/>
+<Dicionario/>
+<Nula Valor="0"/>
+<Observacao/>
+<Anexos/>
+<Cor Valor="15780518"/>
+<TamAuto Valor="-1"/>
+<Tipo Valor="0"/>
+<TextAlin Valor="0"/>
+<Card Valor="4"/>
+<Fixa Valor="0"/>
+<Ligacoes/>
+</Cardinalidade>
+</Cardinalidades>
+<Orientacao Valor="0"/>
+<Fraca Valor="0"/>
+</Ligacao>
+<Ligacao Destino_ID="35">
+<MostraCardinalidade Valor="-1" Card_id="45"/>
+<Cardinalidades Cardinalidade="4">
+<Cardinalidade nome="" id="45">
+<Left Valor="432"/>
+<Top Valor="228"/>
+<Width Valor="40"/>
+<Height Valor="20"/>
+<Fonte default="-1"/>
+<Atributos/>
+<AtributosOcultos/>
+<Dicionario/>
+<Nula Valor="0"/>
+<Observacao/>
+<Anexos/>
+<Cor Valor="15780518"/>
+<TamAuto Valor="-1"/>
+<Tipo Valor="0"/>
+<TextAlin Valor="0"/>
+<Card Valor="4"/>
+<Fixa Valor="0"/>
+<Ligacoes/>
+</Cardinalidade>
+</Cardinalidades>
+<Orientacao Valor="0"/>
+<Fraca Valor="0"/>
+</Ligacao>
+</Ligacoes>
+</ChildRelacao>
+</EntidadeAssoss>
+<EntidadeAssoss nome="Item de Compra" id="77">
+<Left Valor="988"/>
+<Top Valor="262"/>
+<Width Valor="127"/>
+<Height Valor="66"/>
+<Fonte default="-1"/>
+<Atributos>
+<Atributo nome="id_itemc" id="266">
+<Left Valor="1067"/>
+<Top Valor="230"/>
+<Width Valor="76"/>
+<Height Valor="16"/>
+<Fonte default="-1"/>
+<Atributos/>
+<AtributosOcultos/>
+<Dicionario/>
+<Nula Valor="0"/>
+<Observacao/>
+<Anexos/>
+<MaxCard Valor="1"/>
+<MinCard Valor="1"/>
+<Composto Valor="0"/>
+<Identificador Valor="-1"/>
+<Tipo Valor="Texto(1)"/>
+<Multivalorado Valor="0"/>
+<Orientacao Valor="3"/>
+<TamAuto Valor="-1"/>
+<Desvio Valor="10"/>
+<BarraID Valor="268"/>
+<Ligacoes>
+<Ligacao Destino_ID="77">
+<MostraCardinalidade Valor="0" Card_id="267"/>
+<Cardinalidades Cardinalidade="4"/>
+<Orientacao Valor="0"/>
+<Fraca Valor="0"/>
+</Ligacao>
+</Ligacoes>
+</Atributo>
+<Atributo nome="qtidade" id="272">
+<Left Valor="1143"/>
+<Top Valor="263"/>
+<Width Valor="70"/>
+<Height Valor="16"/>
+<Fonte default="-1"/>
+<Atributos/>
+<AtributosOcultos/>
+<Dicionario/>
+<Nula Valor="0"/>
+<Observacao/>
+<Anexos/>
+<MaxCard Valor="1"/>
+<MinCard Valor="1"/>
+<Composto Valor="0"/>
+<Identificador Valor="0"/>
+<Tipo Valor="Texto(1)"/>
+<Multivalorado Valor="0"/>
+<Orientacao Valor="3"/>
+<TamAuto Valor="-1"/>
+<Desvio Valor="10"/>
+<BarraID Valor="274"/>
+<Ligacoes>
+<Ligacao Destino_ID="77">
+<MostraCardinalidade Valor="0" Card_id="273"/>
+<Cardinalidades Cardinalidade="4"/>
+<Orientacao Valor="0"/>
+<Fraca Valor="0"/>
+</Ligacao>
+</Ligacoes>
+</Atributo>
+<Atributo nome="prc_custo" id="278">
+<Left Valor="1141"/>
+<Top Valor="285"/>
+<Width Valor="83"/>
+<Height Valor="16"/>
+<Fonte default="-1"/>
+<Atributos/>
+<AtributosOcultos/>
+<Dicionario/>
+<Nula Valor="0"/>
+<Observacao/>
+<Anexos/>
+<MaxCard Valor="1"/>
+<MinCard Valor="1"/>
+<Composto Valor="0"/>
+<Identificador Valor="0"/>
+<Tipo Valor="Texto(1)"/>
+<Multivalorado Valor="0"/>
+<Orientacao Valor="3"/>
+<TamAuto Valor="-1"/>
+<Desvio Valor="10"/>
+<BarraID Valor="280"/>
+<Ligacoes>
+<Ligacao Destino_ID="77">
+<MostraCardinalidade Valor="0" Card_id="279"/>
+<Cardinalidades Cardinalidade="4"/>
+<Orientacao Valor="0"/>
+<Fraca Valor="0"/>
+</Ligacao>
+</Ligacoes>
+</Atributo>
+</Atributos>
+<AtributosOcultos/>
+<Dicionario/>
+<Nula Valor="0"/>
+<Observacao/>
+<Anexos/>
+<AutoRelacoes AutoRelacionado="0"/>
+<ChildRelacao nome="Necessita" id="78">
+<Left Valor="1003"/>
+<Top Valor="277"/>
+<Width Valor="97"/>
+<Height Valor="36"/>
+<Fonte default="-1"/>
+<Atributos/>
+<AtributosOcultos/>
+<Dicionario/>
+<Nula Valor="0"/>
+<Observacao/>
+<Anexos/>
+<Ligacoes>
+<Ligacao Destino_ID="2">
+<MostraCardinalidade Valor="-1" Card_id="82"/>
+<Cardinalidades Cardinalidade="3">
+<Cardinalidade nome="" id="82">
+<Left Valor="817"/>
+<Top Valor="289"/>
+<Width Valor="40"/>
+<Height Valor="20"/>
+<Fonte default="-1"/>
+<Atributos/>
+<AtributosOcultos/>
+<Dicionario/>
+<Nula Valor="0"/>
+<Observacao/>
+<Anexos/>
+<Cor Valor="15780518"/>
+<TamAuto Valor="-1"/>
+<Tipo Valor="0"/>
+<TextAlin Valor="0"/>
+<Card Valor="3"/>
+<Fixa Valor="0"/>
+<Ligacoes/>
+</Cardinalidade>
+</Cardinalidades>
+<Orientacao Valor="0"/>
+<Fraca Valor="0"/>
+</Ligacao>
+<Ligacao Destino_ID="75">
+<MostraCardinalidade Valor="-1" Card_id="83"/>
+<Cardinalidades Cardinalidade="4">
+<Cardinalidade nome="" id="83">
+<Left Valor="1116"/>
+<Top Valor="436"/>
+<Width Valor="40"/>
+<Height Valor="20"/>
+<Fonte default="-1"/>
+<Atributos/>
+<AtributosOcultos/>
+<Dicionario/>
+<Nula Valor="0"/>
+<Observacao/>
+<Anexos/>
+<Cor Valor="15780518"/>
+<TamAuto Valor="-1"/>
+<Tipo Valor="0"/>
+<TextAlin Valor="0"/>
+<Card Valor="4"/>
+<Fixa Valor="0"/>
+<Ligacoes/>
+</Cardinalidade>
+</Cardinalidades>
+<Orientacao Valor="0"/>
+<Fraca Valor="0"/>
+</Ligacao>
+</Ligacoes>
+</ChildRelacao>
+</EntidadeAssoss>
+<EntidadeAssoss nome="serv_os" id="597">
+<Left Valor="323"/>
+<Top Valor="314"/>
+<Width Valor="127"/>
+<Height Valor="66"/>
+<Fonte default="-1"/>
+<Atributos/>
+<AtributosOcultos/>
+<Dicionario/>
+<Nula Valor="0"/>
+<Observacao/>
+<Anexos/>
+<AutoRelacoes AutoRelacionado="0"/>
+<ChildRelacao nome="contem" id="598">
+<Left Valor="338"/>
+<Top Valor="329"/>
+<Width Valor="97"/>
+<Height Valor="36"/>
+<Fonte default="-1"/>
+<Atributos/>
+<AtributosOcultos/>
+<Dicionario/>
+<Nula Valor="0"/>
+<Observacao/>
+<Anexos/>
+<Ligacoes>
+<Ligacao Destino_ID="593">
+<MostraCardinalidade Valor="-1" Card_id="599"/>
+<Cardinalidades Cardinalidade="3">
+<Cardinalidade nome="" id="599">
+<Left Valor="418"/>
+<Top Valor="360"/>
+<Width Valor="40"/>
+<Height Valor="20"/>
+<Fonte default="-1"/>
+<Atributos/>
+<AtributosOcultos/>
+<Dicionario/>
+<Nula Valor="0"/>
+<Observacao/>
+<Anexos/>
+<Cor Valor="15780518"/>
+<TamAuto Valor="-1"/>
+<Tipo Valor="0"/>
+<TextAlin Valor="0"/>
+<Card Valor="3"/>
+<Fixa Valor="0"/>
+<Ligacoes/>
+</Cardinalidade>
+</Cardinalidades>
+<Orientacao Valor="0"/>
+<Fraca Valor="0"/>
+</Ligacao>
+<Ligacao Destino_ID="35">
+<MostraCardinalidade Valor="-1" Card_id="600"/>
+<Cardinalidades Cardinalidade="4">
+<Cardinalidade nome="" id="600">
+<Left Valor="380"/>
+<Top Valor="288"/>
+<Width Valor="40"/>
+<Height Valor="20"/>
+<Fonte default="-1"/>
+<Atributos/>
+<AtributosOcultos/>
+<Dicionario/>
+<Nula Valor="0"/>
+<Observacao/>
+<Anexos/>
+<Cor Valor="15780518"/>
+<TamAuto Valor="-1"/>
+<Tipo Valor="0"/>
+<TextAlin Valor="0"/>
+<Card Valor="4"/>
+<Fixa Valor="0"/>
+<Ligacoes/>
+</Cardinalidade>
+</Cardinalidades>
+<Orientacao Valor="0"/>
+<Fraca Valor="0"/>
+</Ligacao>
+</Ligacoes>
+</ChildRelacao>
+</EntidadeAssoss>
+</EntAssoss>
+<Texto> </Texto>
+</MER>
